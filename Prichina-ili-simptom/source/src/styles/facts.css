@@ -1,0 +1,22 @@
+.fact-backdrop { position:fixed; inset:0; z-index:1000; display:grid; place-items:center; padding:24px; background:rgba(10,20,42,.64); backdrop-filter:blur(5px); }
+.fact-dialog { width:min(1060px,100%); max-height:calc(100dvh - 48px); overflow:auto; background:#fff; color:#172239; border-radius:24px; box-shadow:0 30px 100px #0005; padding:28px; outline:none; }
+.fact-dialog-head { display:flex; align-items:flex-start; justify-content:space-between; gap:20px; }
+.fact-dialog-head span { display:flex; gap:6px; align-items:center; color:#4b5dc4; font-size:13px; font-weight:800; }
+.fact-dialog-head h2 { font:700 22px/1.4 var(--font-display); margin-top:8px; }
+.fact-instruction { color:#667188; margin:12px 0 24px; max-width:760px; }
+.fact-dialog-layout { display:grid; grid-template-columns:minmax(0,2fr) minmax(220px,1fr); gap:24px; }
+.fact-dialog .field select { width:100%; min-width:0; }
+.fact-reading { padding:24px; background:#f0f4ff; border:1px solid #d4dffa; border-radius:16px; margin:18px 0; }
+.fact-reading>span { font-size:12px; text-transform:uppercase; font-weight:800; color:#5266ab; }
+.fact-reading p { font-size:24px; line-height:1.5; font-weight:700; margin-top:10px; white-space:pre-wrap; overflow-wrap:anywhere; }
+.fact-previous { font-size:13px; color:#657188; margin-bottom:16px; padding-left:12px; border-left:3px solid #cad3e7; }
+.fact-actions { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+.fact-journal { border-left:1px solid #e0e6f0; padding-left:20px; }
+.fact-journal h3 { font-size:15px; margin-bottom:12px; }
+.fact-journal button { display:grid; text-align:left; width:100%; gap:5px; border:1px solid #dce3ee; background:#fafbfe; border-radius:12px; padding:12px; margin-bottom:8px; color:inherit; cursor:pointer; }
+.fact-journal button.is-on { background:#eaf0ff; border-color:#7599e9; }
+.fact-journal button span { font-size:13px; line-height:1.4; }
+.fact-journal button small { color:#4b5dc4; }
+.facts-issued { margin-right:6px; }
+.host .toast { z-index:1100; }
+@media(max-width:760px) { .fact-backdrop { padding:10px; } .fact-dialog { padding:18px; max-height:calc(100dvh - 20px); } .fact-dialog-layout { grid-template-columns:1fr; } .fact-journal { border-left:0; border-top:1px solid #e0e6f0; padding:16px 0 0; } .fact-reading p { font-size:21px; } }

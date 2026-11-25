@@ -44,9 +44,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// node_modules/ms/index.js
+// ../../Проекты/Games_Domoded/node_modules/ms/index.js
 var require_ms = __commonJS({
-  "node_modules/ms/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ms/index.js"(exports, module) {
     var s = 1e3;
     var m = s * 60;
     var h = m * 60;
@@ -160,9 +160,9 @@ var require_ms = __commonJS({
   }
 });
 
-// node_modules/debug/src/common.js
+// ../../Проекты/Games_Domoded/node_modules/debug/src/common.js
 var require_common = __commonJS({
-  "node_modules/debug/src/common.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/debug/src/common.js"(exports, module) {
     function setup(env) {
       createDebug.debug = createDebug;
       createDebug.default = createDebug;
@@ -337,9 +337,9 @@ var require_common = __commonJS({
   }
 });
 
-// node_modules/debug/src/browser.js
+// ../../Проекты/Games_Domoded/node_modules/debug/src/browser.js
 var require_browser = __commonJS({
-  "node_modules/debug/src/browser.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/debug/src/browser.js"(exports, module) {
     exports.formatArgs = formatArgs;
     exports.save = save;
     exports.load = load;
@@ -507,9 +507,9 @@ var require_browser = __commonJS({
   }
 });
 
-// node_modules/debug/src/node.js
+// ../../Проекты/Games_Domoded/node_modules/debug/src/node.js
 var require_node = __commonJS({
-  "node_modules/debug/src/node.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/debug/src/node.js"(exports, module) {
     var tty = __require("tty");
     var util = __require("util");
     exports.init = init;
@@ -681,9 +681,9 @@ var require_node = __commonJS({
   }
 });
 
-// node_modules/debug/src/index.js
+// ../../Проекты/Games_Domoded/node_modules/debug/src/index.js
 var require_src = __commonJS({
-  "node_modules/debug/src/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/debug/src/index.js"(exports, module) {
     if (typeof process === "undefined" || process.type === "renderer" || process.browser === true || process.__nwjs) {
       module.exports = require_browser();
     } else {
@@ -692,9 +692,9 @@ var require_src = __commonJS({
   }
 });
 
-// node_modules/depd/index.js
+// ../../Проекты/Games_Domoded/node_modules/depd/index.js
 var require_depd = __commonJS({
-  "node_modules/depd/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/depd/index.js"(exports, module) {
     var relative = __require("path").relative;
     module.exports = depd;
     var basePath = process.cwd();
@@ -998,9 +998,9 @@ var require_depd = __commonJS({
   }
 });
 
-// node_modules/setprototypeof/index.js
+// ../../Проекты/Games_Domoded/node_modules/setprototypeof/index.js
 var require_setprototypeof = __commonJS({
-  "node_modules/setprototypeof/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/setprototypeof/index.js"(exports, module) {
     "use strict";
     module.exports = Object.setPrototypeOf || ({ __proto__: [] } instanceof Array ? setProtoOf : mixinProperties);
     function setProtoOf(obj, proto) {
@@ -1018,9 +1018,9 @@ var require_setprototypeof = __commonJS({
   }
 });
 
-// node_modules/statuses/codes.json
+// ../../Проекты/Games_Domoded/node_modules/statuses/codes.json
 var require_codes = __commonJS({
-  "node_modules/statuses/codes.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/statuses/codes.json"(exports, module) {
     module.exports = {
       "100": "Continue",
       "101": "Switching Protocols",
@@ -1089,9 +1089,9 @@ var require_codes = __commonJS({
   }
 });
 
-// node_modules/statuses/index.js
+// ../../Проекты/Games_Domoded/node_modules/statuses/index.js
 var require_statuses = __commonJS({
-  "node_modules/statuses/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/statuses/index.js"(exports, module) {
     "use strict";
     var codes = require_codes();
     module.exports = status;
@@ -1160,9 +1160,9 @@ var require_statuses = __commonJS({
   }
 });
 
-// node_modules/inherits/inherits_browser.js
+// ../../Проекты/Games_Domoded/node_modules/inherits/inherits_browser.js
 var require_inherits_browser = __commonJS({
-  "node_modules/inherits/inherits_browser.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/inherits/inherits_browser.js"(exports, module) {
     if (typeof Object.create === "function") {
       module.exports = function inherits(ctor, superCtor) {
         if (superCtor) {
@@ -1192,9 +1192,9 @@ var require_inherits_browser = __commonJS({
   }
 });
 
-// node_modules/inherits/inherits.js
+// ../../Проекты/Games_Domoded/node_modules/inherits/inherits.js
 var require_inherits = __commonJS({
-  "node_modules/inherits/inherits.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/inherits/inherits.js"(exports, module) {
     try {
       util = __require("util");
       if (typeof util.inherits !== "function") throw "";
@@ -1206,9 +1206,9 @@ var require_inherits = __commonJS({
   }
 });
 
-// node_modules/toidentifier/index.js
+// ../../Проекты/Games_Domoded/node_modules/toidentifier/index.js
 var require_toidentifier = __commonJS({
-  "node_modules/toidentifier/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/toidentifier/index.js"(exports, module) {
     "use strict";
     module.exports = toIdentifier;
     function toIdentifier(str) {
@@ -1219,9 +1219,9 @@ var require_toidentifier = __commonJS({
   }
 });
 
-// node_modules/http-errors/index.js
+// ../../Проекты/Games_Domoded/node_modules/http-errors/index.js
 var require_http_errors = __commonJS({
-  "node_modules/http-errors/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/http-errors/index.js"(exports, module) {
     "use strict";
     var deprecate = require_depd()("http-errors");
     var setPrototypeOf = require_setprototypeof();
@@ -1383,9 +1383,9 @@ var require_http_errors = __commonJS({
   }
 });
 
-// node_modules/bytes/index.js
+// ../../Проекты/Games_Domoded/node_modules/bytes/index.js
 var require_bytes = __commonJS({
-  "node_modules/bytes/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/bytes/index.js"(exports, module) {
     "use strict";
     module.exports = bytes;
     module.exports.format = format;
@@ -1472,9 +1472,9 @@ var require_bytes = __commonJS({
   }
 });
 
-// node_modules/safer-buffer/safer.js
+// ../../Проекты/Games_Domoded/node_modules/safer-buffer/safer.js
 var require_safer = __commonJS({
-  "node_modules/safer-buffer/safer.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/safer-buffer/safer.js"(exports, module) {
     "use strict";
     var buffer = __require("buffer");
     var Buffer2 = buffer.Buffer;
@@ -1540,9 +1540,9 @@ var require_safer = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/lib/bom-handling.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/lib/bom-handling.js
 var require_bom_handling = __commonJS({
-  "node_modules/iconv-lite/lib/bom-handling.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/lib/bom-handling.js"(exports) {
     "use strict";
     var BOMChar = "\uFEFF";
     exports.PrependBOM = PrependBOMWrapper;
@@ -1586,9 +1586,9 @@ var require_bom_handling = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/lib/helpers/merge-exports.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/lib/helpers/merge-exports.js
 var require_merge_exports = __commonJS({
-  "node_modules/iconv-lite/lib/helpers/merge-exports.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/lib/helpers/merge-exports.js"(exports, module) {
     "use strict";
     var hasOwn = typeof Object.hasOwn === "undefined" ? Function.call.bind(Object.prototype.hasOwnProperty) : Object.hasOwn;
     function mergeModules(target, module2) {
@@ -1602,9 +1602,9 @@ var require_merge_exports = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/internal.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/internal.js
 var require_internal = __commonJS({
-  "node_modules/iconv-lite/encodings/internal.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/internal.js"(exports, module) {
     "use strict";
     var Buffer2 = require_safer().Buffer;
     module.exports = {
@@ -1783,9 +1783,9 @@ var require_internal = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/utf32.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/utf32.js
 var require_utf32 = __commonJS({
-  "node_modules/iconv-lite/encodings/utf32.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/utf32.js"(exports) {
     "use strict";
     var Buffer2 = require_safer().Buffer;
     exports._utf32 = Utf32Codec;
@@ -2018,9 +2018,9 @@ var require_utf32 = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/utf16.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/utf16.js
 var require_utf16 = __commonJS({
-  "node_modules/iconv-lite/encodings/utf16.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/utf16.js"(exports) {
     "use strict";
     var Buffer2 = require_safer().Buffer;
     exports.utf16be = Utf16BECodec;
@@ -2161,9 +2161,9 @@ var require_utf16 = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/utf7.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/utf7.js
 var require_utf7 = __commonJS({
-  "node_modules/iconv-lite/encodings/utf7.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/utf7.js"(exports) {
     "use strict";
     var Buffer2 = require_safer().Buffer;
     exports.utf7 = Utf7Codec;
@@ -2379,9 +2379,9 @@ var require_utf7 = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/sbcs-codec.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/sbcs-codec.js
 var require_sbcs_codec = __commonJS({
-  "node_modules/iconv-lite/encodings/sbcs-codec.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/sbcs-codec.js"(exports) {
     "use strict";
     var Buffer2 = require_safer().Buffer;
     exports._sbcs = SBCSCodec;
@@ -2441,9 +2441,9 @@ var require_sbcs_codec = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/sbcs-data.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/sbcs-data.js
 var require_sbcs_data = __commonJS({
-  "node_modules/iconv-lite/encodings/sbcs-data.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/sbcs-data.js"(exports, module) {
     "use strict";
     module.exports = {
       // Not supported by iconv, not sure why.
@@ -2596,9 +2596,9 @@ var require_sbcs_data = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/sbcs-data-generated.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/sbcs-data-generated.js
 var require_sbcs_data_generated = __commonJS({
-  "node_modules/iconv-lite/encodings/sbcs-data-generated.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/sbcs-data-generated.js"(exports, module) {
     "use strict";
     module.exports = {
       "437": "cp437",
@@ -3051,9 +3051,9 @@ var require_sbcs_data_generated = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/dbcs-codec.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/dbcs-codec.js
 var require_dbcs_codec = __commonJS({
-  "node_modules/iconv-lite/encodings/dbcs-codec.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/dbcs-codec.js"(exports) {
     "use strict";
     var Buffer2 = require_safer().Buffer;
     exports._dbcs = DBCSCodec;
@@ -3511,9 +3511,9 @@ var require_dbcs_codec = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/tables/shiftjis.json
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/tables/shiftjis.json
 var require_shiftjis = __commonJS({
-  "node_modules/iconv-lite/encodings/tables/shiftjis.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/tables/shiftjis.json"(exports, module) {
     module.exports = [
       ["0", "\0", 128],
       ["a1", "\uFF61", 62],
@@ -3642,9 +3642,9 @@ var require_shiftjis = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/tables/eucjp.json
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/tables/eucjp.json
 var require_eucjp = __commonJS({
-  "node_modules/iconv-lite/encodings/tables/eucjp.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/tables/eucjp.json"(exports, module) {
     module.exports = [
       ["0", "\0", 127],
       ["8ea1", "\uFF61", 62],
@@ -3830,9 +3830,9 @@ var require_eucjp = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/tables/cp936.json
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/tables/cp936.json
 var require_cp936 = __commonJS({
-  "node_modules/iconv-lite/encodings/tables/cp936.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/tables/cp936.json"(exports, module) {
     module.exports = [
       ["0", "\0", 127, "\u20AC"],
       ["8140", "\u4E02\u4E04\u4E05\u4E06\u4E0F\u4E12\u4E17\u4E1F\u4E20\u4E21\u4E23\u4E26\u4E29\u4E2E\u4E2F\u4E31\u4E33\u4E35\u4E37\u4E3C\u4E40\u4E41\u4E42\u4E44\u4E46\u4E4A\u4E51\u4E55\u4E57\u4E5A\u4E5B\u4E62\u4E63\u4E64\u4E65\u4E67\u4E68\u4E6A", 5, "\u4E72\u4E74", 9, "\u4E7F", 6, "\u4E87\u4E8A"],
@@ -4100,9 +4100,9 @@ var require_cp936 = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/tables/gbk-added.json
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/tables/gbk-added.json
 var require_gbk_added = __commonJS({
-  "node_modules/iconv-lite/encodings/tables/gbk-added.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/tables/gbk-added.json"(exports, module) {
     module.exports = [
       ["a140", "\uE4C6", 62],
       ["a180", "\uE505", 32],
@@ -4162,16 +4162,16 @@ var require_gbk_added = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/tables/gb18030-ranges.json
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json
 var require_gb18030_ranges = __commonJS({
-  "node_modules/iconv-lite/encodings/tables/gb18030-ranges.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json"(exports, module) {
     module.exports = { uChars: [128, 165, 169, 178, 184, 216, 226, 235, 238, 244, 248, 251, 253, 258, 276, 284, 300, 325, 329, 334, 364, 463, 465, 467, 469, 471, 473, 475, 477, 506, 594, 610, 712, 716, 730, 930, 938, 962, 970, 1026, 1104, 1106, 8209, 8215, 8218, 8222, 8231, 8241, 8244, 8246, 8252, 8365, 8452, 8454, 8458, 8471, 8482, 8556, 8570, 8596, 8602, 8713, 8720, 8722, 8726, 8731, 8737, 8740, 8742, 8748, 8751, 8760, 8766, 8777, 8781, 8787, 8802, 8808, 8816, 8854, 8858, 8870, 8896, 8979, 9322, 9372, 9548, 9588, 9616, 9622, 9634, 9652, 9662, 9672, 9676, 9680, 9702, 9735, 9738, 9793, 9795, 11906, 11909, 11913, 11917, 11928, 11944, 11947, 11951, 11956, 11960, 11964, 11979, 12284, 12292, 12312, 12319, 12330, 12351, 12436, 12447, 12535, 12543, 12586, 12842, 12850, 12964, 13200, 13215, 13218, 13253, 13263, 13267, 13270, 13384, 13428, 13727, 13839, 13851, 14617, 14703, 14801, 14816, 14964, 15183, 15471, 15585, 16471, 16736, 17208, 17325, 17330, 17374, 17623, 17997, 18018, 18212, 18218, 18301, 18318, 18760, 18811, 18814, 18820, 18823, 18844, 18848, 18872, 19576, 19620, 19738, 19887, 40870, 59244, 59336, 59367, 59413, 59417, 59423, 59431, 59437, 59443, 59452, 59460, 59478, 59493, 63789, 63866, 63894, 63976, 63986, 64016, 64018, 64021, 64025, 64034, 64037, 64042, 65074, 65093, 65107, 65112, 65127, 65132, 65375, 65510, 65536], gbChars: [0, 36, 38, 45, 50, 81, 89, 95, 96, 100, 103, 104, 105, 109, 126, 133, 148, 172, 175, 179, 208, 306, 307, 308, 309, 310, 311, 312, 313, 341, 428, 443, 544, 545, 558, 741, 742, 749, 750, 805, 819, 820, 7922, 7924, 7925, 7927, 7934, 7943, 7944, 7945, 7950, 8062, 8148, 8149, 8152, 8164, 8174, 8236, 8240, 8262, 8264, 8374, 8380, 8381, 8384, 8388, 8390, 8392, 8393, 8394, 8396, 8401, 8406, 8416, 8419, 8424, 8437, 8439, 8445, 8482, 8485, 8496, 8521, 8603, 8936, 8946, 9046, 9050, 9063, 9066, 9076, 9092, 9100, 9108, 9111, 9113, 9131, 9162, 9164, 9218, 9219, 11329, 11331, 11334, 11336, 11346, 11361, 11363, 11366, 11370, 11372, 11375, 11389, 11682, 11686, 11687, 11692, 11694, 11714, 11716, 11723, 11725, 11730, 11736, 11982, 11989, 12102, 12336, 12348, 12350, 12384, 12393, 12395, 12397, 12510, 12553, 12851, 12962, 12973, 13738, 13823, 13919, 13933, 14080, 14298, 14585, 14698, 15583, 15847, 16318, 16434, 16438, 16481, 16729, 17102, 17122, 17315, 17320, 17402, 17418, 17859, 17909, 17911, 17915, 17916, 17936, 17939, 17961, 18664, 18703, 18814, 18962, 19043, 33469, 33470, 33471, 33484, 33485, 33490, 33497, 33501, 33505, 33513, 33520, 33536, 33550, 37845, 37921, 37948, 38029, 38038, 38064, 38065, 38066, 38069, 38075, 38076, 38078, 39108, 39109, 39113, 39114, 39115, 39116, 39265, 39394, 189e3] };
   }
 });
 
-// node_modules/iconv-lite/encodings/tables/cp949.json
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/tables/cp949.json
 var require_cp949 = __commonJS({
-  "node_modules/iconv-lite/encodings/tables/cp949.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/tables/cp949.json"(exports, module) {
     module.exports = [
       ["0", "\0", 127],
       ["8141", "\uAC02\uAC03\uAC05\uAC06\uAC0B", 4, "\uAC18\uAC1E\uAC1F\uAC21\uAC22\uAC23\uAC25", 6, "\uAC2E\uAC32\uAC33\uAC34"],
@@ -4448,9 +4448,9 @@ var require_cp949 = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/tables/cp950.json
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/tables/cp950.json
 var require_cp950 = __commonJS({
-  "node_modules/iconv-lite/encodings/tables/cp950.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/tables/cp950.json"(exports, module) {
     module.exports = [
       ["0", "\0", 127],
       ["a140", "\u3000\uFF0C\u3001\u3002\uFF0E\u2027\uFF1B\uFF1A\uFF1F\uFF01\uFE30\u2026\u2025\uFE50\uFE51\uFE52\xB7\uFE54\uFE55\uFE56\uFE57\uFF5C\u2013\uFE31\u2014\uFE33\u2574\uFE34\uFE4F\uFF08\uFF09\uFE35\uFE36\uFF5B\uFF5D\uFE37\uFE38\u3014\u3015\uFE39\uFE3A\u3010\u3011\uFE3B\uFE3C\u300A\u300B\uFE3D\uFE3E\u3008\u3009\uFE3F\uFE40\u300C\u300D\uFE41\uFE42\u300E\u300F\uFE43\uFE44\uFE59\uFE5A"],
@@ -4631,9 +4631,9 @@ var require_cp950 = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/tables/big5-added.json
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/tables/big5-added.json
 var require_big5_added = __commonJS({
-  "node_modules/iconv-lite/encodings/tables/big5-added.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/tables/big5-added.json"(exports, module) {
     module.exports = [
       ["8740", "\u43F0\u4C32\u4603\u45A6\u4578\u{27267}\u4D77\u45B3\u{27CB1}\u4CE2\u{27CC5}\u3B95\u4736\u4744\u4C47\u4C40\u{242BF}\u{23617}\u{27352}\u{26E8B}\u{270D2}\u4C57\u{2A351}\u474F\u45DA\u4C85\u{27C6C}\u4D07\u4AA4\u46A1\u{26B23}\u7225\u{25A54}\u{21A63}\u{23E06}\u{23F61}\u664D\u56FB"],
       ["8767", "\u7D95\u591D\u{28BB9}\u3DF4\u9734\u{27BEF}\u5BDB\u{21D5E}\u5AA4\u3625\u{29EB0}\u5AD1\u5BB7\u5CFC\u676E\u8593\u{29945}\u7461\u749D\u3875\u{21D53}\u{2369E}\u{26021}\u3EEC"],
@@ -4759,9 +4759,9 @@ var require_big5_added = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/dbcs-data.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/dbcs-data.js
 var require_dbcs_data = __commonJS({
-  "node_modules/iconv-lite/encodings/dbcs-data.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/dbcs-data.js"(exports, module) {
     "use strict";
     module.exports = {
       // == Japanese/ShiftJIS ====================================================
@@ -5006,9 +5006,9 @@ var require_dbcs_data = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/encodings/index.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/encodings/index.js
 var require_encodings = __commonJS({
-  "node_modules/iconv-lite/encodings/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/encodings/index.js"(exports, module) {
     "use strict";
     var mergeModules = require_merge_exports();
     var modules = [
@@ -5031,9 +5031,9 @@ var require_encodings = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/lib/streams.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/lib/streams.js
 var require_streams = __commonJS({
-  "node_modules/iconv-lite/lib/streams.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/lib/streams.js"(exports, module) {
     "use strict";
     var Buffer2 = require_safer().Buffer;
     module.exports = function(streamModule) {
@@ -5128,9 +5128,9 @@ var require_streams = __commonJS({
   }
 });
 
-// node_modules/iconv-lite/lib/index.js
+// ../../Проекты/Games_Domoded/node_modules/iconv-lite/lib/index.js
 var require_lib = __commonJS({
-  "node_modules/iconv-lite/lib/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/iconv-lite/lib/index.js"(exports, module) {
     "use strict";
     var Buffer2 = require_safer().Buffer;
     var bomHandling = require_bom_handling();
@@ -5260,9 +5260,9 @@ var require_lib = __commonJS({
   }
 });
 
-// node_modules/unpipe/index.js
+// ../../Проекты/Games_Domoded/node_modules/unpipe/index.js
 var require_unpipe = __commonJS({
-  "node_modules/unpipe/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/unpipe/index.js"(exports, module) {
     "use strict";
     module.exports = unpipe;
     function hasPipeDataListeners(stream) {
@@ -5298,9 +5298,9 @@ var require_unpipe = __commonJS({
   }
 });
 
-// node_modules/raw-body/index.js
+// ../../Проекты/Games_Domoded/node_modules/raw-body/index.js
 var require_raw_body = __commonJS({
-  "node_modules/raw-body/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/raw-body/index.js"(exports, module) {
     "use strict";
     var asyncHooks = tryRequireAsyncHooks();
     var bytes = require_bytes();
@@ -5487,9 +5487,9 @@ var require_raw_body = __commonJS({
   }
 });
 
-// node_modules/ee-first/index.js
+// ../../Проекты/Games_Domoded/node_modules/ee-first/index.js
 var require_ee_first = __commonJS({
-  "node_modules/ee-first/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ee-first/index.js"(exports, module) {
     "use strict";
     module.exports = first;
     function first(stuff, done) {
@@ -5543,9 +5543,9 @@ var require_ee_first = __commonJS({
   }
 });
 
-// node_modules/on-finished/index.js
+// ../../Проекты/Games_Domoded/node_modules/on-finished/index.js
 var require_on_finished = __commonJS({
-  "node_modules/on-finished/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/on-finished/index.js"(exports, module) {
     "use strict";
     module.exports = onFinished;
     module.exports.isFinished = isFinished;
@@ -5651,9 +5651,9 @@ var require_on_finished = __commonJS({
   }
 });
 
-// node_modules/content-type/dist/index.js
+// ../../Проекты/Games_Domoded/node_modules/content-type/dist/index.js
 var require_dist = __commonJS({
-  "node_modules/content-type/dist/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/content-type/dist/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.format = format;
@@ -5790,9 +5790,9 @@ var require_dist = __commonJS({
   }
 });
 
-// node_modules/mime-db/db.json
+// ../../Проекты/Games_Domoded/node_modules/mime-db/db.json
 var require_db = __commonJS({
-  "node_modules/mime-db/db.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/mime-db/db.json"(exports, module) {
     module.exports = {
       "application/1d-interleaved-parityfec": {
         source: "iana"
@@ -15138,16 +15138,16 @@ var require_db = __commonJS({
   }
 });
 
-// node_modules/mime-db/index.js
+// ../../Проекты/Games_Domoded/node_modules/mime-db/index.js
 var require_mime_db = __commonJS({
-  "node_modules/mime-db/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/mime-db/index.js"(exports, module) {
     module.exports = require_db();
   }
 });
 
-// node_modules/mime-types/mimeScore.js
+// ../../Проекты/Games_Domoded/node_modules/mime-types/mimeScore.js
 var require_mimeScore = __commonJS({
-  "node_modules/mime-types/mimeScore.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/mime-types/mimeScore.js"(exports, module) {
     var FACET_SCORES = {
       "prs.": 100,
       "x-": 200,
@@ -15189,9 +15189,9 @@ var require_mimeScore = __commonJS({
   }
 });
 
-// node_modules/mime-types/index.js
+// ../../Проекты/Games_Domoded/node_modules/mime-types/index.js
 var require_mime_types = __commonJS({
-  "node_modules/mime-types/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/mime-types/index.js"(exports) {
     "use strict";
     var db = require_mime_db();
     var extname = __require("path").extname;
@@ -15295,9 +15295,9 @@ var require_mime_types = __commonJS({
   }
 });
 
-// node_modules/media-typer/index.js
+// ../../Проекты/Games_Domoded/node_modules/media-typer/index.js
 var require_media_typer = __commonJS({
-  "node_modules/media-typer/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/media-typer/index.js"(exports) {
     "use strict";
     var SUBTYPE_NAME_REGEXP = /^[A-Za-z0-9][A-Za-z0-9!#$&^_.-]{0,126}$/;
     var TYPE_NAME_REGEXP = /^[A-Za-z0-9][A-Za-z0-9!#$&^_-]{0,126}$/;
@@ -15359,9 +15359,9 @@ var require_media_typer = __commonJS({
   }
 });
 
-// node_modules/type-is/index.js
+// ../../Проекты/Games_Domoded/node_modules/type-is/index.js
 var require_type_is = __commonJS({
-  "node_modules/type-is/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/type-is/index.js"(exports, module) {
     "use strict";
     var contentType = require_dist();
     var mime = require_mime_types();
@@ -15450,9 +15450,9 @@ var require_type_is = __commonJS({
   }
 });
 
-// node_modules/body-parser/lib/read.js
+// ../../Проекты/Games_Domoded/node_modules/body-parser/lib/read.js
 var require_read = __commonJS({
-  "node_modules/body-parser/lib/read.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/body-parser/lib/read.js"(exports, module) {
     "use strict";
     var createError = require_http_errors();
     var getBody = require_raw_body();
@@ -15621,9 +15621,9 @@ var require_read = __commonJS({
   }
 });
 
-// node_modules/body-parser/lib/utils.js
+// ../../Проекты/Games_Domoded/node_modules/body-parser/lib/utils.js
 var require_utils = __commonJS({
-  "node_modules/body-parser/lib/utils.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/body-parser/lib/utils.js"(exports, module) {
     "use strict";
     var bytes = require_bytes();
     var typeis = require_type_is();
@@ -15666,9 +15666,9 @@ var require_utils = __commonJS({
   }
 });
 
-// node_modules/body-parser/lib/types/json.js
+// ../../Проекты/Games_Domoded/node_modules/body-parser/lib/types/json.js
 var require_json = __commonJS({
-  "node_modules/body-parser/lib/types/json.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/body-parser/lib/types/json.js"(exports, module) {
     "use strict";
     var debug = require_src()("body-parser:json");
     var read = require_read();
@@ -15767,9 +15767,9 @@ var require_json = __commonJS({
   }
 });
 
-// node_modules/body-parser/lib/types/raw.js
+// ../../Проекты/Games_Domoded/node_modules/body-parser/lib/types/raw.js
 var require_raw = __commonJS({
-  "node_modules/body-parser/lib/types/raw.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/body-parser/lib/types/raw.js"(exports, module) {
     "use strict";
     var debug = require_src()("body-parser:raw");
     var read = require_read();
@@ -15789,9 +15789,9 @@ var require_raw = __commonJS({
   }
 });
 
-// node_modules/body-parser/lib/types/text.js
+// ../../Проекты/Games_Domoded/node_modules/body-parser/lib/types/text.js
 var require_text = __commonJS({
-  "node_modules/body-parser/lib/types/text.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/body-parser/lib/types/text.js"(exports, module) {
     "use strict";
     var debug = require_src()("body-parser:text");
     var read = require_read();
@@ -15806,24 +15806,24 @@ var require_text = __commonJS({
   }
 });
 
-// node_modules/es-errors/type.js
+// ../../Проекты/Games_Domoded/node_modules/es-errors/type.js
 var require_type = __commonJS({
-  "node_modules/es-errors/type.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/es-errors/type.js"(exports, module) {
     "use strict";
     module.exports = TypeError;
   }
 });
 
-// node_modules/object-inspect/util.inspect.js
+// ../../Проекты/Games_Domoded/node_modules/object-inspect/util.inspect.js
 var require_util_inspect = __commonJS({
-  "node_modules/object-inspect/util.inspect.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/object-inspect/util.inspect.js"(exports, module) {
     module.exports = __require("util").inspect;
   }
 });
 
-// node_modules/object-inspect/index.js
+// ../../Проекты/Games_Domoded/node_modules/object-inspect/index.js
 var require_object_inspect = __commonJS({
-  "node_modules/object-inspect/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/object-inspect/index.js"(exports, module) {
     var hasMap = typeof Map === "function" && Map.prototype;
     var mapSizeDescriptor = Object.getOwnPropertyDescriptor && hasMap ? Object.getOwnPropertyDescriptor(Map.prototype, "size") : null;
     var mapSize2 = hasMap && mapSizeDescriptor && typeof mapSizeDescriptor.get === "function" ? mapSizeDescriptor.get : null;
@@ -16352,9 +16352,9 @@ var require_object_inspect = __commonJS({
   }
 });
 
-// node_modules/side-channel-list/index.js
+// ../../Проекты/Games_Domoded/node_modules/side-channel-list/index.js
 var require_side_channel_list = __commonJS({
-  "node_modules/side-channel-list/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/side-channel-list/index.js"(exports, module) {
     "use strict";
     var inspect = require_object_inspect();
     var $TypeError = require_type();
@@ -16445,113 +16445,113 @@ var require_side_channel_list = __commonJS({
   }
 });
 
-// node_modules/es-object-atoms/index.js
+// ../../Проекты/Games_Domoded/node_modules/es-object-atoms/index.js
 var require_es_object_atoms = __commonJS({
-  "node_modules/es-object-atoms/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/es-object-atoms/index.js"(exports, module) {
     "use strict";
     module.exports = Object;
   }
 });
 
-// node_modules/es-errors/index.js
+// ../../Проекты/Games_Domoded/node_modules/es-errors/index.js
 var require_es_errors = __commonJS({
-  "node_modules/es-errors/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/es-errors/index.js"(exports, module) {
     "use strict";
     module.exports = Error;
   }
 });
 
-// node_modules/es-errors/eval.js
+// ../../Проекты/Games_Domoded/node_modules/es-errors/eval.js
 var require_eval = __commonJS({
-  "node_modules/es-errors/eval.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/es-errors/eval.js"(exports, module) {
     "use strict";
     module.exports = EvalError;
   }
 });
 
-// node_modules/es-errors/range.js
+// ../../Проекты/Games_Domoded/node_modules/es-errors/range.js
 var require_range = __commonJS({
-  "node_modules/es-errors/range.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/es-errors/range.js"(exports, module) {
     "use strict";
     module.exports = RangeError;
   }
 });
 
-// node_modules/es-errors/ref.js
+// ../../Проекты/Games_Domoded/node_modules/es-errors/ref.js
 var require_ref = __commonJS({
-  "node_modules/es-errors/ref.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/es-errors/ref.js"(exports, module) {
     "use strict";
     module.exports = ReferenceError;
   }
 });
 
-// node_modules/es-errors/syntax.js
+// ../../Проекты/Games_Domoded/node_modules/es-errors/syntax.js
 var require_syntax = __commonJS({
-  "node_modules/es-errors/syntax.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/es-errors/syntax.js"(exports, module) {
     "use strict";
     module.exports = SyntaxError;
   }
 });
 
-// node_modules/es-errors/uri.js
+// ../../Проекты/Games_Domoded/node_modules/es-errors/uri.js
 var require_uri = __commonJS({
-  "node_modules/es-errors/uri.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/es-errors/uri.js"(exports, module) {
     "use strict";
     module.exports = URIError;
   }
 });
 
-// node_modules/math-intrinsics/abs.js
+// ../../Проекты/Games_Domoded/node_modules/math-intrinsics/abs.js
 var require_abs = __commonJS({
-  "node_modules/math-intrinsics/abs.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/math-intrinsics/abs.js"(exports, module) {
     "use strict";
     module.exports = Math.abs;
   }
 });
 
-// node_modules/math-intrinsics/floor.js
+// ../../Проекты/Games_Domoded/node_modules/math-intrinsics/floor.js
 var require_floor = __commonJS({
-  "node_modules/math-intrinsics/floor.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/math-intrinsics/floor.js"(exports, module) {
     "use strict";
     module.exports = Math.floor;
   }
 });
 
-// node_modules/math-intrinsics/max.js
+// ../../Проекты/Games_Domoded/node_modules/math-intrinsics/max.js
 var require_max = __commonJS({
-  "node_modules/math-intrinsics/max.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/math-intrinsics/max.js"(exports, module) {
     "use strict";
     module.exports = Math.max;
   }
 });
 
-// node_modules/math-intrinsics/min.js
+// ../../Проекты/Games_Domoded/node_modules/math-intrinsics/min.js
 var require_min = __commonJS({
-  "node_modules/math-intrinsics/min.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/math-intrinsics/min.js"(exports, module) {
     "use strict";
     module.exports = Math.min;
   }
 });
 
-// node_modules/math-intrinsics/pow.js
+// ../../Проекты/Games_Domoded/node_modules/math-intrinsics/pow.js
 var require_pow = __commonJS({
-  "node_modules/math-intrinsics/pow.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/math-intrinsics/pow.js"(exports, module) {
     "use strict";
     module.exports = Math.pow;
   }
 });
 
-// node_modules/math-intrinsics/round.js
+// ../../Проекты/Games_Domoded/node_modules/math-intrinsics/round.js
 var require_round = __commonJS({
-  "node_modules/math-intrinsics/round.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/math-intrinsics/round.js"(exports, module) {
     "use strict";
     module.exports = Math.round;
   }
 });
 
-// node_modules/math-intrinsics/isNaN.js
+// ../../Проекты/Games_Domoded/node_modules/math-intrinsics/isNaN.js
 var require_isNaN = __commonJS({
-  "node_modules/math-intrinsics/isNaN.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/math-intrinsics/isNaN.js"(exports, module) {
     "use strict";
     module.exports = Number.isNaN || function isNaN2(a) {
       return a !== a;
@@ -16559,9 +16559,9 @@ var require_isNaN = __commonJS({
   }
 });
 
-// node_modules/math-intrinsics/sign.js
+// ../../Проекты/Games_Domoded/node_modules/math-intrinsics/sign.js
 var require_sign = __commonJS({
-  "node_modules/math-intrinsics/sign.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/math-intrinsics/sign.js"(exports, module) {
     "use strict";
     var $isNaN = require_isNaN();
     module.exports = function sign(number4) {
@@ -16573,17 +16573,17 @@ var require_sign = __commonJS({
   }
 });
 
-// node_modules/gopd/gOPD.js
+// ../../Проекты/Games_Domoded/node_modules/gopd/gOPD.js
 var require_gOPD = __commonJS({
-  "node_modules/gopd/gOPD.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/gopd/gOPD.js"(exports, module) {
     "use strict";
     module.exports = Object.getOwnPropertyDescriptor;
   }
 });
 
-// node_modules/gopd/index.js
+// ../../Проекты/Games_Domoded/node_modules/gopd/index.js
 var require_gopd = __commonJS({
-  "node_modules/gopd/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/gopd/index.js"(exports, module) {
     "use strict";
     var $gOPD = require_gOPD();
     if ($gOPD) {
@@ -16597,9 +16597,9 @@ var require_gopd = __commonJS({
   }
 });
 
-// node_modules/es-define-property/index.js
+// ../../Проекты/Games_Domoded/node_modules/es-define-property/index.js
 var require_es_define_property = __commonJS({
-  "node_modules/es-define-property/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/es-define-property/index.js"(exports, module) {
     "use strict";
     var $defineProperty = Object.defineProperty || false;
     if ($defineProperty) {
@@ -16613,9 +16613,9 @@ var require_es_define_property = __commonJS({
   }
 });
 
-// node_modules/has-symbols/shams.js
+// ../../Проекты/Games_Domoded/node_modules/has-symbols/shams.js
 var require_shams = __commonJS({
-  "node_modules/has-symbols/shams.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/has-symbols/shams.js"(exports, module) {
     "use strict";
     module.exports = function hasSymbols() {
       if (typeof Symbol !== "function" || typeof Object.getOwnPropertySymbols !== "function") {
@@ -16668,9 +16668,9 @@ var require_shams = __commonJS({
   }
 });
 
-// node_modules/has-symbols/index.js
+// ../../Проекты/Games_Domoded/node_modules/has-symbols/index.js
 var require_has_symbols = __commonJS({
-  "node_modules/has-symbols/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/has-symbols/index.js"(exports, module) {
     "use strict";
     var origSymbol = typeof Symbol !== "undefined" && Symbol;
     var hasSymbolSham = require_shams();
@@ -16692,26 +16692,26 @@ var require_has_symbols = __commonJS({
   }
 });
 
-// node_modules/get-proto/Reflect.getPrototypeOf.js
+// ../../Проекты/Games_Domoded/node_modules/get-proto/Reflect.getPrototypeOf.js
 var require_Reflect_getPrototypeOf = __commonJS({
-  "node_modules/get-proto/Reflect.getPrototypeOf.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/get-proto/Reflect.getPrototypeOf.js"(exports, module) {
     "use strict";
     module.exports = typeof Reflect !== "undefined" && Reflect.getPrototypeOf || null;
   }
 });
 
-// node_modules/get-proto/Object.getPrototypeOf.js
+// ../../Проекты/Games_Domoded/node_modules/get-proto/Object.getPrototypeOf.js
 var require_Object_getPrototypeOf = __commonJS({
-  "node_modules/get-proto/Object.getPrototypeOf.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/get-proto/Object.getPrototypeOf.js"(exports, module) {
     "use strict";
     var $Object = require_es_object_atoms();
     module.exports = $Object.getPrototypeOf || null;
   }
 });
 
-// node_modules/function-bind/implementation.js
+// ../../Проекты/Games_Domoded/node_modules/function-bind/implementation.js
 var require_implementation = __commonJS({
-  "node_modules/function-bind/implementation.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/function-bind/implementation.js"(exports, module) {
     "use strict";
     var ERROR_MESSAGE = "Function.prototype.bind called on incompatible ";
     var toStr = Object.prototype.toString;
@@ -16785,42 +16785,42 @@ var require_implementation = __commonJS({
   }
 });
 
-// node_modules/function-bind/index.js
+// ../../Проекты/Games_Domoded/node_modules/function-bind/index.js
 var require_function_bind = __commonJS({
-  "node_modules/function-bind/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/function-bind/index.js"(exports, module) {
     "use strict";
     var implementation = require_implementation();
     module.exports = Function.prototype.bind || implementation;
   }
 });
 
-// node_modules/call-bind-apply-helpers/functionCall.js
+// ../../Проекты/Games_Domoded/node_modules/call-bind-apply-helpers/functionCall.js
 var require_functionCall = __commonJS({
-  "node_modules/call-bind-apply-helpers/functionCall.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/call-bind-apply-helpers/functionCall.js"(exports, module) {
     "use strict";
     module.exports = Function.prototype.call;
   }
 });
 
-// node_modules/call-bind-apply-helpers/functionApply.js
+// ../../Проекты/Games_Domoded/node_modules/call-bind-apply-helpers/functionApply.js
 var require_functionApply = __commonJS({
-  "node_modules/call-bind-apply-helpers/functionApply.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/call-bind-apply-helpers/functionApply.js"(exports, module) {
     "use strict";
     module.exports = Function.prototype.apply;
   }
 });
 
-// node_modules/call-bind-apply-helpers/reflectApply.js
+// ../../Проекты/Games_Domoded/node_modules/call-bind-apply-helpers/reflectApply.js
 var require_reflectApply = __commonJS({
-  "node_modules/call-bind-apply-helpers/reflectApply.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/call-bind-apply-helpers/reflectApply.js"(exports, module) {
     "use strict";
     module.exports = typeof Reflect !== "undefined" && Reflect && Reflect.apply;
   }
 });
 
-// node_modules/call-bind-apply-helpers/actualApply.js
+// ../../Проекты/Games_Domoded/node_modules/call-bind-apply-helpers/actualApply.js
 var require_actualApply = __commonJS({
-  "node_modules/call-bind-apply-helpers/actualApply.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/call-bind-apply-helpers/actualApply.js"(exports, module) {
     "use strict";
     var bind = require_function_bind();
     var $apply = require_functionApply();
@@ -16830,9 +16830,9 @@ var require_actualApply = __commonJS({
   }
 });
 
-// node_modules/call-bind-apply-helpers/index.js
+// ../../Проекты/Games_Domoded/node_modules/call-bind-apply-helpers/index.js
 var require_call_bind_apply_helpers = __commonJS({
-  "node_modules/call-bind-apply-helpers/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/call-bind-apply-helpers/index.js"(exports, module) {
     "use strict";
     var bind = require_function_bind();
     var $TypeError = require_type();
@@ -16847,9 +16847,9 @@ var require_call_bind_apply_helpers = __commonJS({
   }
 });
 
-// node_modules/dunder-proto/get.js
+// ../../Проекты/Games_Domoded/node_modules/dunder-proto/get.js
 var require_get = __commonJS({
-  "node_modules/dunder-proto/get.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/dunder-proto/get.js"(exports, module) {
     "use strict";
     var callBind = require_call_bind_apply_helpers();
     var gOPD = require_gopd();
@@ -16878,9 +16878,9 @@ var require_get = __commonJS({
   }
 });
 
-// node_modules/get-proto/index.js
+// ../../Проекты/Games_Domoded/node_modules/get-proto/index.js
 var require_get_proto = __commonJS({
-  "node_modules/get-proto/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/get-proto/index.js"(exports, module) {
     "use strict";
     var reflectGetProto = require_Reflect_getPrototypeOf();
     var originalGetProto = require_Object_getPrototypeOf();
@@ -16898,9 +16898,9 @@ var require_get_proto = __commonJS({
   }
 });
 
-// node_modules/hasown/index.js
+// ../../Проекты/Games_Domoded/node_modules/hasown/index.js
 var require_hasown = __commonJS({
-  "node_modules/hasown/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/hasown/index.js"(exports, module) {
     "use strict";
     var call = Function.prototype.call;
     var $hasOwn = Object.prototype.hasOwnProperty;
@@ -16909,9 +16909,9 @@ var require_hasown = __commonJS({
   }
 });
 
-// node_modules/get-intrinsic/index.js
+// ../../Проекты/Games_Domoded/node_modules/get-intrinsic/index.js
 var require_get_intrinsic = __commonJS({
-  "node_modules/get-intrinsic/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/get-intrinsic/index.js"(exports, module) {
     "use strict";
     var undefined2;
     var $Object = require_es_object_atoms();
@@ -17240,9 +17240,9 @@ var require_get_intrinsic = __commonJS({
   }
 });
 
-// node_modules/call-bound/index.js
+// ../../Проекты/Games_Domoded/node_modules/call-bound/index.js
 var require_call_bound = __commonJS({
-  "node_modules/call-bound/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/call-bound/index.js"(exports, module) {
     "use strict";
     var GetIntrinsic = require_get_intrinsic();
     var callBindBasic = require_call_bind_apply_helpers();
@@ -17263,9 +17263,9 @@ var require_call_bound = __commonJS({
   }
 });
 
-// node_modules/side-channel-map/index.js
+// ../../Проекты/Games_Domoded/node_modules/side-channel-map/index.js
 var require_side_channel_map = __commonJS({
-  "node_modules/side-channel-map/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/side-channel-map/index.js"(exports, module) {
     "use strict";
     var GetIntrinsic = require_get_intrinsic();
     var callBound = require_call_bound();
@@ -17319,9 +17319,9 @@ var require_side_channel_map = __commonJS({
   }
 });
 
-// node_modules/side-channel-weakmap/index.js
+// ../../Проекты/Games_Domoded/node_modules/side-channel-weakmap/index.js
 var require_side_channel_weakmap = __commonJS({
-  "node_modules/side-channel-weakmap/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/side-channel-weakmap/index.js"(exports, module) {
     "use strict";
     var GetIntrinsic = require_get_intrinsic();
     var callBound = require_call_bound();
@@ -17392,9 +17392,9 @@ var require_side_channel_weakmap = __commonJS({
   }
 });
 
-// node_modules/side-channel/index.js
+// ../../Проекты/Games_Domoded/node_modules/side-channel/index.js
 var require_side_channel = __commonJS({
-  "node_modules/side-channel/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/side-channel/index.js"(exports, module) {
     "use strict";
     var $TypeError = require_type();
     var inspect = require_object_inspect();
@@ -17432,9 +17432,9 @@ var require_side_channel = __commonJS({
   }
 });
 
-// node_modules/qs/lib/formats.js
+// ../../Проекты/Games_Domoded/node_modules/qs/lib/formats.js
 var require_formats = __commonJS({
-  "node_modules/qs/lib/formats.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/qs/lib/formats.js"(exports, module) {
     "use strict";
     var replace = String.prototype.replace;
     var percentTwenties = /%20/g;
@@ -17463,9 +17463,9 @@ var require_formats = __commonJS({
   }
 });
 
-// node_modules/qs/lib/utils.js
+// ../../Проекты/Games_Domoded/node_modules/qs/lib/utils.js
 var require_utils2 = __commonJS({
-  "node_modules/qs/lib/utils.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/qs/lib/utils.js"(exports, module) {
     "use strict";
     var formats = require_formats();
     var getSideChannel = require_side_channel();
@@ -17874,9 +17874,9 @@ var require_utils2 = __commonJS({
   }
 });
 
-// node_modules/qs/lib/stringify.js
+// ../../Проекты/Games_Domoded/node_modules/qs/lib/stringify.js
 var require_stringify = __commonJS({
-  "node_modules/qs/lib/stringify.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/qs/lib/stringify.js"(exports, module) {
     "use strict";
     var getSideChannel = require_side_channel();
     var utils = require_utils2();
@@ -18171,9 +18171,9 @@ var require_stringify = __commonJS({
   }
 });
 
-// node_modules/qs/lib/parse.js
+// ../../Проекты/Games_Domoded/node_modules/qs/lib/parse.js
 var require_parse = __commonJS({
-  "node_modules/qs/lib/parse.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/qs/lib/parse.js"(exports, module) {
     "use strict";
     var getSideChannel = require_side_channel();
     var utils = require_utils2();
@@ -18573,9 +18573,9 @@ var require_parse = __commonJS({
   }
 });
 
-// node_modules/qs/lib/index.js
+// ../../Проекты/Games_Domoded/node_modules/qs/lib/index.js
 var require_lib2 = __commonJS({
-  "node_modules/qs/lib/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/qs/lib/index.js"(exports, module) {
     "use strict";
     var stringify = require_stringify();
     var parse3 = require_parse();
@@ -18588,9 +18588,9 @@ var require_lib2 = __commonJS({
   }
 });
 
-// node_modules/body-parser/lib/types/urlencoded.js
+// ../../Проекты/Games_Domoded/node_modules/body-parser/lib/types/urlencoded.js
 var require_urlencoded = __commonJS({
-  "node_modules/body-parser/lib/types/urlencoded.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/body-parser/lib/types/urlencoded.js"(exports, module) {
     "use strict";
     var createError = require_http_errors();
     var debug = require_src()("body-parser:urlencoded");
@@ -18674,9 +18674,9 @@ var require_urlencoded = __commonJS({
   }
 });
 
-// node_modules/body-parser/index.js
+// ../../Проекты/Games_Domoded/node_modules/body-parser/index.js
 var require_body_parser = __commonJS({
-  "node_modules/body-parser/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/body-parser/index.js"(exports, module) {
     "use strict";
     exports = module.exports = bodyParser;
     exports.json = require_json();
@@ -18689,9 +18689,9 @@ var require_body_parser = __commonJS({
   }
 });
 
-// node_modules/merge-descriptors/index.js
+// ../../Проекты/Games_Domoded/node_modules/merge-descriptors/index.js
 var require_merge_descriptors = __commonJS({
-  "node_modules/merge-descriptors/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/merge-descriptors/index.js"(exports, module) {
     "use strict";
     function mergeDescriptors(destination, source, overwrite = true) {
       if (!destination) {
@@ -18713,9 +18713,9 @@ var require_merge_descriptors = __commonJS({
   }
 });
 
-// node_modules/encodeurl/index.js
+// ../../Проекты/Games_Domoded/node_modules/encodeurl/index.js
 var require_encodeurl = __commonJS({
-  "node_modules/encodeurl/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/encodeurl/index.js"(exports, module) {
     "use strict";
     module.exports = encodeUrl;
     var ENCODE_CHARS_REGEXP = /(?:[^\x21\x23-\x3B\x3D\x3F-\x5F\x61-\x7A\x7C\x7E]|%(?:[^0-9A-Fa-f]|[0-9A-Fa-f][^0-9A-Fa-f]|$))+/g;
@@ -18727,9 +18727,9 @@ var require_encodeurl = __commonJS({
   }
 });
 
-// node_modules/escape-html/index.js
+// ../../Проекты/Games_Domoded/node_modules/escape-html/index.js
 var require_escape_html = __commonJS({
-  "node_modules/escape-html/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/escape-html/index.js"(exports, module) {
     "use strict";
     var matchHtmlRegExp = /["'&<>]/;
     module.exports = escapeHtml;
@@ -18774,9 +18774,9 @@ var require_escape_html = __commonJS({
   }
 });
 
-// node_modules/parseurl/index.js
+// ../../Проекты/Games_Domoded/node_modules/parseurl/index.js
 var require_parseurl = __commonJS({
-  "node_modules/parseurl/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/parseurl/index.js"(exports, module) {
     "use strict";
     var url2 = __require("url");
     var parse3 = url2.parse;
@@ -18858,9 +18858,9 @@ var require_parseurl = __commonJS({
   }
 });
 
-// node_modules/finalhandler/index.js
+// ../../Проекты/Games_Domoded/node_modules/finalhandler/index.js
 var require_finalhandler = __commonJS({
-  "node_modules/finalhandler/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/finalhandler/index.js"(exports, module) {
     "use strict";
     var debug = require_src()("finalhandler");
     var encodeUrl = require_encodeurl();
@@ -18985,9 +18985,9 @@ var require_finalhandler = __commonJS({
   }
 });
 
-// node_modules/express/lib/view.js
+// ../../Проекты/Games_Domoded/node_modules/express/lib/view.js
 var require_view = __commonJS({
-  "node_modules/express/lib/view.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/express/lib/view.js"(exports, module) {
     "use strict";
     var debug = require_src()("express:view");
     var path = __require("node:path");
@@ -19079,9 +19079,9 @@ var require_view = __commonJS({
   }
 });
 
-// node_modules/etag/index.js
+// ../../Проекты/Games_Domoded/node_modules/etag/index.js
 var require_etag = __commonJS({
-  "node_modules/etag/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/etag/index.js"(exports, module) {
     "use strict";
     module.exports = etag;
     var crypto2 = __require("crypto");
@@ -19121,9 +19121,9 @@ var require_etag = __commonJS({
   }
 });
 
-// node_modules/forwarded/index.js
+// ../../Проекты/Games_Domoded/node_modules/forwarded/index.js
 var require_forwarded = __commonJS({
-  "node_modules/forwarded/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/forwarded/index.js"(exports, module) {
     "use strict";
     module.exports = forwarded;
     function forwarded(req) {
@@ -19168,9 +19168,9 @@ var require_forwarded = __commonJS({
   }
 });
 
-// node_modules/ipaddr.js/lib/ipaddr.js
+// ../../Проекты/Games_Domoded/node_modules/ipaddr.js/lib/ipaddr.js
 var require_ipaddr = __commonJS({
-  "node_modules/ipaddr.js/lib/ipaddr.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ipaddr.js/lib/ipaddr.js"(exports, module) {
     (function() {
       var expandIPv6, ipaddr, ipv4Part, ipv4Regexes, ipv6Part, ipv6Regexes, matchCIDR, root2, zoneIndex;
       ipaddr = {};
@@ -19790,9 +19790,9 @@ var require_ipaddr = __commonJS({
   }
 });
 
-// node_modules/proxy-addr/index.js
+// ../../Проекты/Games_Domoded/node_modules/proxy-addr/index.js
 var require_proxy_addr = __commonJS({
-  "node_modules/proxy-addr/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/proxy-addr/index.js"(exports, module) {
     "use strict";
     module.exports = proxyaddr;
     module.exports.all = alladdrs;
@@ -19965,9 +19965,9 @@ var require_proxy_addr = __commonJS({
   }
 });
 
-// node_modules/express/lib/utils.js
+// ../../Проекты/Games_Domoded/node_modules/express/lib/utils.js
 var require_utils3 = __commonJS({
-  "node_modules/express/lib/utils.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/express/lib/utils.js"(exports) {
     "use strict";
     var { METHODS } = __require("node:http");
     var contentType = require_dist();
@@ -20092,9 +20092,9 @@ var require_utils3 = __commonJS({
   }
 });
 
-// node_modules/wrappy/wrappy.js
+// ../../Проекты/Games_Domoded/node_modules/wrappy/wrappy.js
 var require_wrappy = __commonJS({
-  "node_modules/wrappy/wrappy.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/wrappy/wrappy.js"(exports, module) {
     module.exports = wrappy;
     function wrappy(fn, cb) {
       if (fn && cb) return wrappy(fn)(cb);
@@ -20122,9 +20122,9 @@ var require_wrappy = __commonJS({
   }
 });
 
-// node_modules/once/once.js
+// ../../Проекты/Games_Domoded/node_modules/once/once.js
 var require_once = __commonJS({
-  "node_modules/once/once.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/once/once.js"(exports, module) {
     var wrappy = require_wrappy();
     module.exports = wrappy(once);
     module.exports.strict = wrappy(onceStrict);
@@ -20166,9 +20166,9 @@ var require_once = __commonJS({
   }
 });
 
-// node_modules/is-promise/index.js
+// ../../Проекты/Games_Domoded/node_modules/is-promise/index.js
 var require_is_promise = __commonJS({
-  "node_modules/is-promise/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/is-promise/index.js"(exports, module) {
     module.exports = isPromise;
     module.exports.default = isPromise;
     function isPromise(obj) {
@@ -20177,9 +20177,9 @@ var require_is_promise = __commonJS({
   }
 });
 
-// node_modules/path-to-regexp/dist/index.js
+// ../../Проекты/Games_Domoded/node_modules/path-to-regexp/dist/index.js
 var require_dist2 = __commonJS({
-  "node_modules/path-to-regexp/dist/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/path-to-regexp/dist/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.PathError = exports.TokenData = void 0;
@@ -20546,9 +20546,9 @@ var require_dist2 = __commonJS({
   }
 });
 
-// node_modules/router/lib/layer.js
+// ../../Проекты/Games_Domoded/node_modules/router/lib/layer.js
 var require_layer = __commonJS({
-  "node_modules/router/lib/layer.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/router/lib/layer.js"(exports, module) {
     "use strict";
     var isPromise = require_is_promise();
     var pathRegexp = require_dist2();
@@ -20696,9 +20696,9 @@ var require_layer = __commonJS({
   }
 });
 
-// node_modules/router/lib/route.js
+// ../../Проекты/Games_Domoded/node_modules/router/lib/route.js
 var require_route = __commonJS({
-  "node_modules/router/lib/route.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/router/lib/route.js"(exports, module) {
     "use strict";
     var debug = require_src()("router:route");
     var Layer = require_layer();
@@ -20816,9 +20816,9 @@ var require_route = __commonJS({
   }
 });
 
-// node_modules/router/index.js
+// ../../Проекты/Games_Domoded/node_modules/router/index.js
 var require_router = __commonJS({
-  "node_modules/router/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/router/index.js"(exports, module) {
     "use strict";
     var isPromise = require_is_promise();
     var Layer = require_layer();
@@ -21214,9 +21214,9 @@ var require_router = __commonJS({
   }
 });
 
-// node_modules/express/lib/application.js
+// ../../Проекты/Games_Domoded/node_modules/express/lib/application.js
 var require_application = __commonJS({
-  "node_modules/express/lib/application.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/express/lib/application.js"(exports, module) {
     "use strict";
     var finalhandler = require_finalhandler();
     var debug = require_src()("express:application");
@@ -21475,9 +21475,9 @@ var require_application = __commonJS({
   }
 });
 
-// node_modules/negotiator/lib/accept.js
+// ../../Проекты/Games_Domoded/node_modules/negotiator/lib/accept.js
 var require_accept = __commonJS({
-  "node_modules/negotiator/lib/accept.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/negotiator/lib/accept.js"(exports, module) {
     "use strict";
     var contentType = require_dist();
     module.exports = parseAccept;
@@ -21503,9 +21503,9 @@ var require_accept = __commonJS({
   }
 });
 
-// node_modules/negotiator/lib/charset.js
+// ../../Проекты/Games_Domoded/node_modules/negotiator/lib/charset.js
 var require_charset = __commonJS({
-  "node_modules/negotiator/lib/charset.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/negotiator/lib/charset.js"(exports, module) {
     "use strict";
     var parseAccept = require_accept();
     module.exports = preferredCharsets;
@@ -21575,9 +21575,9 @@ var require_charset = __commonJS({
   }
 });
 
-// node_modules/negotiator/lib/encoding.js
+// ../../Проекты/Games_Domoded/node_modules/negotiator/lib/encoding.js
 var require_encoding = __commonJS({
-  "node_modules/negotiator/lib/encoding.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/negotiator/lib/encoding.js"(exports, module) {
     "use strict";
     var parseAccept = require_accept();
     module.exports = preferredEncodings;
@@ -21675,9 +21675,9 @@ var require_encoding = __commonJS({
   }
 });
 
-// node_modules/negotiator/lib/language.js
+// ../../Проекты/Games_Domoded/node_modules/negotiator/lib/language.js
 var require_language = __commonJS({
-  "node_modules/negotiator/lib/language.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/negotiator/lib/language.js"(exports, module) {
     "use strict";
     var contentType = require_dist();
     var parseAccept = require_accept();
@@ -21759,9 +21759,9 @@ var require_language = __commonJS({
   }
 });
 
-// node_modules/negotiator/lib/mediaType.js
+// ../../Проекты/Games_Domoded/node_modules/negotiator/lib/mediaType.js
 var require_mediaType = __commonJS({
-  "node_modules/negotiator/lib/mediaType.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/negotiator/lib/mediaType.js"(exports, module) {
     "use strict";
     var contentType = require_dist();
     var parseAcceptHeader = require_accept();
@@ -21856,9 +21856,9 @@ var require_mediaType = __commonJS({
   }
 });
 
-// node_modules/negotiator/index.js
+// ../../Проекты/Games_Domoded/node_modules/negotiator/index.js
 var require_negotiator = __commonJS({
-  "node_modules/negotiator/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/negotiator/index.js"(exports, module) {
     "use strict";
     var preferredCharsets = require_charset();
     var preferredEncodings = require_encoding();
@@ -21912,9 +21912,9 @@ var require_negotiator = __commonJS({
   }
 });
 
-// node_modules/accepts/index.js
+// ../../Проекты/Games_Domoded/node_modules/accepts/index.js
 var require_accepts = __commonJS({
-  "node_modules/accepts/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/accepts/index.js"(exports, module) {
     "use strict";
     var Negotiator = require_negotiator();
     var mime = require_mime_types();
@@ -21993,9 +21993,9 @@ var require_accepts = __commonJS({
   }
 });
 
-// node_modules/fresh/index.js
+// ../../Проекты/Games_Domoded/node_modules/fresh/index.js
 var require_fresh = __commonJS({
-  "node_modules/fresh/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/fresh/index.js"(exports, module) {
     "use strict";
     var CACHE_CONTROL_NO_CACHE_REGEXP = /(?:^|,)\s*?no-cache\s*?(?:,|$)/;
     module.exports = fresh;
@@ -22065,9 +22065,9 @@ var require_fresh = __commonJS({
   }
 });
 
-// node_modules/range-parser/index.js
+// ../../Проекты/Games_Domoded/node_modules/range-parser/index.js
 var require_range_parser = __commonJS({
-  "node_modules/range-parser/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/range-parser/index.js"(exports, module) {
     "use strict";
     module.exports = rangeParser;
     function rangeParser(size, str, options) {
@@ -22158,9 +22158,9 @@ var require_range_parser = __commonJS({
   }
 });
 
-// node_modules/express/lib/request.js
+// ../../Проекты/Games_Domoded/node_modules/express/lib/request.js
 var require_request = __commonJS({
-  "node_modules/express/lib/request.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/express/lib/request.js"(exports, module) {
     "use strict";
     var accepts = require_accepts();
     var isIP = __require("node:net").isIP;
@@ -22306,9 +22306,9 @@ var require_request = __commonJS({
   }
 });
 
-// node_modules/content-disposition/dist/index.js
+// ../../Проекты/Games_Domoded/node_modules/content-disposition/dist/index.js
 var require_dist3 = __commonJS({
-  "node_modules/content-disposition/dist/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/content-disposition/dist/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.create = create;
@@ -22595,9 +22595,9 @@ var require_dist3 = __commonJS({
   }
 });
 
-// node_modules/cookie-signature/index.js
+// ../../Проекты/Games_Domoded/node_modules/cookie-signature/index.js
 var require_cookie_signature = __commonJS({
-  "node_modules/cookie-signature/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/cookie-signature/index.js"(exports) {
     var crypto2 = __require("crypto");
     exports.sign = function(val, secret) {
       if ("string" != typeof val) throw new TypeError("Cookie value must be provided as a string.");
@@ -22613,9 +22613,9 @@ var require_cookie_signature = __commonJS({
   }
 });
 
-// node_modules/cookie/index.js
+// ../../Проекты/Games_Domoded/node_modules/cookie/index.js
 var require_cookie = __commonJS({
-  "node_modules/cookie/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/cookie/index.js"(exports) {
     "use strict";
     exports.parse = parse3;
     exports.serialize = serialize;
@@ -22779,9 +22779,9 @@ var require_cookie = __commonJS({
   }
 });
 
-// node_modules/send/index.js
+// ../../Проекты/Games_Domoded/node_modules/send/index.js
 var require_send = __commonJS({
-  "node_modules/send/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/send/index.js"(exports, module) {
     "use strict";
     var createError = require_http_errors();
     var debug = require_src()("send");
@@ -23262,9 +23262,9 @@ var require_send = __commonJS({
   }
 });
 
-// node_modules/vary/index.js
+// ../../Проекты/Games_Domoded/node_modules/vary/index.js
 var require_vary = __commonJS({
-  "node_modules/vary/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/vary/index.js"(exports, module) {
     "use strict";
     module.exports = vary;
     module.exports.append = append;
@@ -23335,9 +23335,9 @@ var require_vary = __commonJS({
   }
 });
 
-// node_modules/express/lib/response.js
+// ../../Проекты/Games_Domoded/node_modules/express/lib/response.js
 var require_response = __commonJS({
-  "node_modules/express/lib/response.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/express/lib/response.js"(exports, module) {
     "use strict";
     var contentDisposition = require_dist3();
     var createError = require_http_errors();
@@ -23805,9 +23805,9 @@ var require_response = __commonJS({
   }
 });
 
-// node_modules/serve-static/index.js
+// ../../Проекты/Games_Domoded/node_modules/serve-static/index.js
 var require_serve_static = __commonJS({
-  "node_modules/serve-static/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/serve-static/index.js"(exports, module) {
     "use strict";
     var encodeUrl = require_encodeurl();
     var escapeHtml = require_escape_html();
@@ -23909,9 +23909,9 @@ var require_serve_static = __commonJS({
   }
 });
 
-// node_modules/express/lib/express.js
+// ../../Проекты/Games_Domoded/node_modules/express/lib/express.js
 var require_express = __commonJS({
-  "node_modules/express/lib/express.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/express/lib/express.js"(exports, module) {
     "use strict";
     var bodyParser = require_body_parser();
     var EventEmitter = __require("node:events").EventEmitter;
@@ -23949,17 +23949,17 @@ var require_express = __commonJS({
   }
 });
 
-// node_modules/express/index.js
+// ../../Проекты/Games_Domoded/node_modules/express/index.js
 var require_express2 = __commonJS({
-  "node_modules/express/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/express/index.js"(exports, module) {
     "use strict";
     module.exports = require_express();
   }
 });
 
-// node_modules/socket.io/node_modules/negotiator/lib/charset.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/node_modules/negotiator/lib/charset.js
 var require_charset2 = __commonJS({
-  "node_modules/socket.io/node_modules/negotiator/lib/charset.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/node_modules/negotiator/lib/charset.js"(exports, module) {
     "use strict";
     module.exports = preferredCharsets;
     module.exports.preferredCharsets = preferredCharsets;
@@ -24044,9 +24044,9 @@ var require_charset2 = __commonJS({
   }
 });
 
-// node_modules/socket.io/node_modules/negotiator/lib/encoding.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/node_modules/negotiator/lib/encoding.js
 var require_encoding2 = __commonJS({
-  "node_modules/socket.io/node_modules/negotiator/lib/encoding.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/node_modules/negotiator/lib/encoding.js"(exports, module) {
     "use strict";
     module.exports = preferredEncodings;
     module.exports.preferredEncodings = preferredEncodings;
@@ -24142,9 +24142,9 @@ var require_encoding2 = __commonJS({
   }
 });
 
-// node_modules/socket.io/node_modules/negotiator/lib/language.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/node_modules/negotiator/lib/language.js
 var require_language2 = __commonJS({
-  "node_modules/socket.io/node_modules/negotiator/lib/language.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/node_modules/negotiator/lib/language.js"(exports, module) {
     "use strict";
     module.exports = preferredLanguages;
     module.exports.preferredLanguages = preferredLanguages;
@@ -24237,9 +24237,9 @@ var require_language2 = __commonJS({
   }
 });
 
-// node_modules/socket.io/node_modules/negotiator/lib/mediaType.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/node_modules/negotiator/lib/mediaType.js
 var require_mediaType2 = __commonJS({
-  "node_modules/socket.io/node_modules/negotiator/lib/mediaType.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/node_modules/negotiator/lib/mediaType.js"(exports, module) {
     "use strict";
     module.exports = preferredMediaTypes;
     module.exports.preferredMediaTypes = preferredMediaTypes;
@@ -24399,9 +24399,9 @@ var require_mediaType2 = __commonJS({
   }
 });
 
-// node_modules/socket.io/node_modules/negotiator/index.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/node_modules/negotiator/index.js
 var require_negotiator2 = __commonJS({
-  "node_modules/socket.io/node_modules/negotiator/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/node_modules/negotiator/index.js"(exports, module) {
     "use strict";
     var preferredCharsets = require_charset2();
     var preferredEncodings = require_encoding2();
@@ -24454,9 +24454,9 @@ var require_negotiator2 = __commonJS({
   }
 });
 
-// node_modules/socket.io/node_modules/mime-db/db.json
+// ../../Проекты/Games_Domoded/node_modules/socket.io/node_modules/mime-db/db.json
 var require_db2 = __commonJS({
-  "node_modules/socket.io/node_modules/mime-db/db.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/node_modules/mime-db/db.json"(exports, module) {
     module.exports = {
       "application/1d-interleaved-parityfec": {
         source: "iana"
@@ -32979,16 +32979,16 @@ var require_db2 = __commonJS({
   }
 });
 
-// node_modules/socket.io/node_modules/mime-db/index.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/node_modules/mime-db/index.js
 var require_mime_db2 = __commonJS({
-  "node_modules/socket.io/node_modules/mime-db/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/node_modules/mime-db/index.js"(exports, module) {
     module.exports = require_db2();
   }
 });
 
-// node_modules/socket.io/node_modules/mime-types/index.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/node_modules/mime-types/index.js
 var require_mime_types2 = __commonJS({
-  "node_modules/socket.io/node_modules/mime-types/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/node_modules/mime-types/index.js"(exports) {
     "use strict";
     var db = require_mime_db2();
     var extname = __require("path").extname;
@@ -33076,9 +33076,9 @@ var require_mime_types2 = __commonJS({
   }
 });
 
-// node_modules/socket.io/node_modules/accepts/index.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/node_modules/accepts/index.js
 var require_accepts2 = __commonJS({
-  "node_modules/socket.io/node_modules/accepts/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/node_modules/accepts/index.js"(exports, module) {
     "use strict";
     var Negotiator = require_negotiator2();
     var mime = require_mime_types2();
@@ -33157,9 +33157,9 @@ var require_accepts2 = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/contrib/base64id.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/contrib/base64id.js
 var require_base64id = __commonJS({
-  "node_modules/engine.io/build/contrib/base64id.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/contrib/base64id.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.base64id = void 0;
@@ -33222,9 +33222,9 @@ var require_base64id = __commonJS({
   }
 });
 
-// node_modules/engine.io-parser/build/cjs/commons.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io-parser/build/cjs/commons.js
 var require_commons = __commonJS({
-  "node_modules/engine.io-parser/build/cjs/commons.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io-parser/build/cjs/commons.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ERROR_PACKET = exports.PACKET_TYPES_REVERSE = exports.PACKET_TYPES = void 0;
@@ -33247,9 +33247,9 @@ var require_commons = __commonJS({
   }
 });
 
-// node_modules/engine.io-parser/build/cjs/encodePacket.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io-parser/build/cjs/encodePacket.js
 var require_encodePacket = __commonJS({
-  "node_modules/engine.io-parser/build/cjs/encodePacket.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io-parser/build/cjs/encodePacket.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.encodePacket = void 0;
@@ -33286,9 +33286,9 @@ var require_encodePacket = __commonJS({
   }
 });
 
-// node_modules/engine.io-parser/build/cjs/decodePacket.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io-parser/build/cjs/decodePacket.js
 var require_decodePacket = __commonJS({
-  "node_modules/engine.io-parser/build/cjs/decodePacket.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io-parser/build/cjs/decodePacket.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.decodePacket = void 0;
@@ -33341,9 +33341,9 @@ var require_decodePacket = __commonJS({
   }
 });
 
-// node_modules/engine.io-parser/build/cjs/index.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io-parser/build/cjs/index.js
 var require_cjs = __commonJS({
-  "node_modules/engine.io-parser/build/cjs/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io-parser/build/cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.decodePayload = exports.decodePacket = exports.encodePayload = exports.encodePacket = exports.protocol = void 0;
@@ -33503,9 +33503,9 @@ var require_cjs = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/parser-v3/utf8.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/parser-v3/utf8.js
 var require_utf8 = __commonJS({
-  "node_modules/engine.io/build/parser-v3/utf8.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/parser-v3/utf8.js"(exports, module) {
     "use strict";
     var stringFromCharCode = String.fromCharCode;
     function ucs2decode(string4) {
@@ -33675,9 +33675,9 @@ var require_utf8 = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/parser-v3/index.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/parser-v3/index.js
 var require_parser_v3 = __commonJS({
-  "node_modules/engine.io/build/parser-v3/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/parser-v3/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.packets = exports.protocol = void 0;
@@ -33964,9 +33964,9 @@ var require_parser_v3 = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/transport.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/transport.js
 var require_transport = __commonJS({
-  "node_modules/engine.io/build/transport.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/transport.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? (function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -34116,9 +34116,9 @@ var require_transport = __commonJS({
   }
 });
 
-// node_modules/engine.io/node_modules/negotiator/lib/charset.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/node_modules/negotiator/lib/charset.js
 var require_charset3 = __commonJS({
-  "node_modules/engine.io/node_modules/negotiator/lib/charset.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/node_modules/negotiator/lib/charset.js"(exports, module) {
     "use strict";
     module.exports = preferredCharsets;
     module.exports.preferredCharsets = preferredCharsets;
@@ -34203,9 +34203,9 @@ var require_charset3 = __commonJS({
   }
 });
 
-// node_modules/engine.io/node_modules/negotiator/lib/encoding.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/node_modules/negotiator/lib/encoding.js
 var require_encoding3 = __commonJS({
-  "node_modules/engine.io/node_modules/negotiator/lib/encoding.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/node_modules/negotiator/lib/encoding.js"(exports, module) {
     "use strict";
     module.exports = preferredEncodings;
     module.exports.preferredEncodings = preferredEncodings;
@@ -34301,9 +34301,9 @@ var require_encoding3 = __commonJS({
   }
 });
 
-// node_modules/engine.io/node_modules/negotiator/lib/language.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/node_modules/negotiator/lib/language.js
 var require_language3 = __commonJS({
-  "node_modules/engine.io/node_modules/negotiator/lib/language.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/node_modules/negotiator/lib/language.js"(exports, module) {
     "use strict";
     module.exports = preferredLanguages;
     module.exports.preferredLanguages = preferredLanguages;
@@ -34396,9 +34396,9 @@ var require_language3 = __commonJS({
   }
 });
 
-// node_modules/engine.io/node_modules/negotiator/lib/mediaType.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/node_modules/negotiator/lib/mediaType.js
 var require_mediaType3 = __commonJS({
-  "node_modules/engine.io/node_modules/negotiator/lib/mediaType.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/node_modules/negotiator/lib/mediaType.js"(exports, module) {
     "use strict";
     module.exports = preferredMediaTypes;
     module.exports.preferredMediaTypes = preferredMediaTypes;
@@ -34558,9 +34558,9 @@ var require_mediaType3 = __commonJS({
   }
 });
 
-// node_modules/engine.io/node_modules/negotiator/index.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/node_modules/negotiator/index.js
 var require_negotiator3 = __commonJS({
-  "node_modules/engine.io/node_modules/negotiator/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/node_modules/negotiator/index.js"(exports, module) {
     "use strict";
     var preferredCharsets = require_charset3();
     var preferredEncodings = require_encoding3();
@@ -34613,9 +34613,9 @@ var require_negotiator3 = __commonJS({
   }
 });
 
-// node_modules/engine.io/node_modules/mime-db/db.json
+// ../../Проекты/Games_Domoded/node_modules/engine.io/node_modules/mime-db/db.json
 var require_db3 = __commonJS({
-  "node_modules/engine.io/node_modules/mime-db/db.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/node_modules/mime-db/db.json"(exports, module) {
     module.exports = {
       "application/1d-interleaved-parityfec": {
         source: "iana"
@@ -43138,16 +43138,16 @@ var require_db3 = __commonJS({
   }
 });
 
-// node_modules/engine.io/node_modules/mime-db/index.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/node_modules/mime-db/index.js
 var require_mime_db3 = __commonJS({
-  "node_modules/engine.io/node_modules/mime-db/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/node_modules/mime-db/index.js"(exports, module) {
     module.exports = require_db3();
   }
 });
 
-// node_modules/engine.io/node_modules/mime-types/index.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/node_modules/mime-types/index.js
 var require_mime_types3 = __commonJS({
-  "node_modules/engine.io/node_modules/mime-types/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/node_modules/mime-types/index.js"(exports) {
     "use strict";
     var db = require_mime_db3();
     var extname = __require("path").extname;
@@ -43235,9 +43235,9 @@ var require_mime_types3 = __commonJS({
   }
 });
 
-// node_modules/engine.io/node_modules/accepts/index.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/node_modules/accepts/index.js
 var require_accepts3 = __commonJS({
-  "node_modules/engine.io/node_modules/accepts/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/node_modules/accepts/index.js"(exports, module) {
     "use strict";
     var Negotiator = require_negotiator3();
     var mime = require_mime_types3();
@@ -43316,9 +43316,9 @@ var require_accepts3 = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/transports/polling.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/transports/polling.js
 var require_polling = __commonJS({
-  "node_modules/engine.io/build/transports/polling.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/transports/polling.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -43639,9 +43639,9 @@ var require_polling = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/transports/polling-jsonp.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/transports/polling-jsonp.js
 var require_polling_jsonp = __commonJS({
-  "node_modules/engine.io/build/transports/polling-jsonp.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/transports/polling-jsonp.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? (function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -43714,9 +43714,9 @@ var require_polling_jsonp = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/transports/websocket.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/transports/websocket.js
 var require_websocket = __commonJS({
-  "node_modules/engine.io/build/transports/websocket.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/transports/websocket.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -43809,9 +43809,9 @@ var require_websocket = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/transports/webtransport.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/transports/webtransport.js
 var require_webtransport = __commonJS({
-  "node_modules/engine.io/build/transports/webtransport.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/transports/webtransport.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -43876,9 +43876,9 @@ var require_webtransport = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/transports/index.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/transports/index.js
 var require_transports = __commonJS({
-  "node_modules/engine.io/build/transports/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/transports/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var polling_1 = require_polling();
@@ -43901,9 +43901,9 @@ var require_transports = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/socket.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/socket.js
 var require_socket = __commonJS({
-  "node_modules/engine.io/build/socket.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/socket.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -44350,9 +44350,9 @@ var require_socket = __commonJS({
   }
 });
 
-// node_modules/ws/lib/constants.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/constants.js
 var require_constants = __commonJS({
-  "node_modules/ws/lib/constants.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/constants.js"(exports, module) {
     "use strict";
     var BINARY_TYPES = ["nodebuffer", "arraybuffer", "fragments"];
     var hasBlob = typeof Blob !== "undefined";
@@ -44373,9 +44373,9 @@ var require_constants = __commonJS({
   }
 });
 
-// node_modules/ws/lib/buffer-util.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/buffer-util.js
 var require_buffer_util = __commonJS({
-  "node_modules/ws/lib/buffer-util.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/buffer-util.js"(exports, module) {
     "use strict";
     var { EMPTY_BUFFER } = require_constants();
     var FastBuffer = Buffer[Symbol.species];
@@ -44448,9 +44448,9 @@ var require_buffer_util = __commonJS({
   }
 });
 
-// node_modules/ws/lib/limiter.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/limiter.js
 var require_limiter = __commonJS({
-  "node_modules/ws/lib/limiter.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/limiter.js"(exports, module) {
     "use strict";
     var kDone = /* @__PURE__ */ Symbol("kDone");
     var kRun = /* @__PURE__ */ Symbol("kRun");
@@ -44498,9 +44498,9 @@ var require_limiter = __commonJS({
   }
 });
 
-// node_modules/ws/lib/permessage-deflate.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/permessage-deflate.js
 var require_permessage_deflate = __commonJS({
-  "node_modules/ws/lib/permessage-deflate.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/permessage-deflate.js"(exports, module) {
     "use strict";
     var zlib = __require("zlib");
     var bufferUtil = require_buffer_util();
@@ -44881,9 +44881,9 @@ var require_permessage_deflate = __commonJS({
   }
 });
 
-// node_modules/ws/lib/validation.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/validation.js
 var require_validation = __commonJS({
-  "node_modules/ws/lib/validation.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/validation.js"(exports, module) {
     "use strict";
     var { isUtf8 } = __require("buffer");
     var { hasBlob } = require_constants();
@@ -45082,9 +45082,9 @@ var require_validation = __commonJS({
   }
 });
 
-// node_modules/ws/lib/receiver.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/receiver.js
 var require_receiver = __commonJS({
-  "node_modules/ws/lib/receiver.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/receiver.js"(exports, module) {
     "use strict";
     var { Writable } = __require("stream");
     var PerMessageDeflate = require_permessage_deflate();
@@ -45705,9 +45705,9 @@ var require_receiver = __commonJS({
   }
 });
 
-// node_modules/ws/lib/sender.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/sender.js
 var require_sender = __commonJS({
-  "node_modules/ws/lib/sender.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/sender.js"(exports, module) {
     "use strict";
     var { Duplex } = __require("stream");
     var { randomFillSync } = __require("crypto");
@@ -46198,9 +46198,9 @@ var require_sender = __commonJS({
   }
 });
 
-// node_modules/ws/lib/event-target.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/event-target.js
 var require_event_target = __commonJS({
-  "node_modules/ws/lib/event-target.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/event-target.js"(exports, module) {
     "use strict";
     var { kForOnEventAttribute, kListener } = require_constants();
     var kCode = /* @__PURE__ */ Symbol("kCode");
@@ -46427,9 +46427,9 @@ var require_event_target = __commonJS({
   }
 });
 
-// node_modules/ws/lib/extension.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/extension.js
 var require_extension = __commonJS({
-  "node_modules/ws/lib/extension.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/extension.js"(exports, module) {
     "use strict";
     var { tokenChars } = require_validation();
     function push(dest, name, elem) {
@@ -46580,9 +46580,9 @@ var require_extension = __commonJS({
   }
 });
 
-// node_modules/ws/lib/websocket.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/websocket.js
 var require_websocket2 = __commonJS({
-  "node_modules/ws/lib/websocket.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/websocket.js"(exports, module) {
     "use strict";
     var EventEmitter = __require("events");
     var https = __require("https");
@@ -47476,9 +47476,9 @@ var require_websocket2 = __commonJS({
   }
 });
 
-// node_modules/ws/lib/stream.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/stream.js
 var require_stream = __commonJS({
-  "node_modules/ws/lib/stream.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/stream.js"(exports, module) {
     "use strict";
     var WebSocket = require_websocket2();
     var { Duplex } = __require("stream");
@@ -47574,9 +47574,9 @@ var require_stream = __commonJS({
   }
 });
 
-// node_modules/ws/lib/subprotocol.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/subprotocol.js
 var require_subprotocol = __commonJS({
-  "node_modules/ws/lib/subprotocol.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/subprotocol.js"(exports, module) {
     "use strict";
     var { tokenChars } = require_validation();
     function parse3(header) {
@@ -47619,9 +47619,9 @@ var require_subprotocol = __commonJS({
   }
 });
 
-// node_modules/ws/lib/websocket-server.js
+// ../../Проекты/Games_Domoded/node_modules/ws/lib/websocket-server.js
 var require_websocket_server = __commonJS({
-  "node_modules/ws/lib/websocket-server.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/lib/websocket-server.js"(exports, module) {
     "use strict";
     var EventEmitter = __require("events");
     var http2 = __require("http");
@@ -48020,9 +48020,9 @@ var require_websocket_server = __commonJS({
   }
 });
 
-// node_modules/ws/index.js
+// ../../Проекты/Games_Domoded/node_modules/ws/index.js
 var require_ws = __commonJS({
-  "node_modules/ws/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/ws/index.js"(exports, module) {
     "use strict";
     var createWebSocketStream = require_stream();
     var extension = require_extension();
@@ -48045,9 +48045,9 @@ var require_ws = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/utils/objectFromEntries.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/utils/objectFromEntries.js
 var require_objectFromEntries = __commonJS({
-  "node_modules/engine.io/build/utils/objectFromEntries.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/utils/objectFromEntries.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.objectFromEntries = void 0;
@@ -48061,9 +48061,9 @@ var require_objectFromEntries = __commonJS({
   }
 });
 
-// node_modules/object-assign/index.js
+// ../../Проекты/Games_Domoded/node_modules/object-assign/index.js
 var require_object_assign = __commonJS({
-  "node_modules/object-assign/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/object-assign/index.js"(exports, module) {
     "use strict";
     var getOwnPropertySymbols = Object.getOwnPropertySymbols;
     var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -48131,9 +48131,9 @@ var require_object_assign = __commonJS({
   }
 });
 
-// node_modules/cors/lib/index.js
+// ../../Проекты/Games_Domoded/node_modules/cors/lib/index.js
 var require_lib3 = __commonJS({
-  "node_modules/cors/lib/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/cors/lib/index.js"(exports, module) {
     (function() {
       "use strict";
       var assign = require_object_assign();
@@ -48339,9 +48339,9 @@ var require_lib3 = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/server.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/server.js
 var require_server = __commonJS({
-  "node_modules/engine.io/build/server.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/server.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -49320,9 +49320,9 @@ var require_server = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/transports-uws/polling.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/transports-uws/polling.js
 var require_polling2 = __commonJS({
-  "node_modules/engine.io/build/transports-uws/polling.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/transports-uws/polling.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -49674,9 +49674,9 @@ var require_polling2 = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/transports-uws/websocket.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/transports-uws/websocket.js
 var require_websocket3 = __commonJS({
-  "node_modules/engine.io/build/transports-uws/websocket.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/transports-uws/websocket.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -49753,9 +49753,9 @@ var require_websocket3 = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/transports-uws/index.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/transports-uws/index.js
 var require_transports_uws = __commonJS({
-  "node_modules/engine.io/build/transports-uws/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/transports-uws/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var polling_1 = require_polling2();
@@ -49767,9 +49767,9 @@ var require_transports_uws = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/userver.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/userver.js
 var require_userver = __commonJS({
-  "node_modules/engine.io/build/userver.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/userver.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -50038,9 +50038,9 @@ var require_userver = __commonJS({
   }
 });
 
-// node_modules/engine.io/build/engine.io.js
+// ../../Проекты/Games_Domoded/node_modules/engine.io/build/engine.io.js
 var require_engine_io = __commonJS({
-  "node_modules/engine.io/build/engine.io.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/engine.io/build/engine.io.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? (function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -50130,9 +50130,9 @@ var require_engine_io = __commonJS({
   }
 });
 
-// node_modules/@socket.io/component-emitter/lib/cjs/index.js
+// ../../Проекты/Games_Domoded/node_modules/@socket.io/component-emitter/lib/cjs/index.js
 var require_cjs2 = __commonJS({
-  "node_modules/@socket.io/component-emitter/lib/cjs/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/@socket.io/component-emitter/lib/cjs/index.js"(exports) {
     exports.Emitter = Emitter;
     function Emitter(obj) {
       if (obj) return mixin(obj);
@@ -50207,9 +50207,9 @@ var require_cjs2 = __commonJS({
   }
 });
 
-// node_modules/socket.io-parser/build/cjs/is-binary.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io-parser/build/cjs/is-binary.js
 var require_is_binary = __commonJS({
-  "node_modules/socket.io-parser/build/cjs/is-binary.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io-parser/build/cjs/is-binary.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isBinary = isBinary;
@@ -50252,9 +50252,9 @@ var require_is_binary = __commonJS({
   }
 });
 
-// node_modules/socket.io-parser/build/cjs/binary.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io-parser/build/cjs/binary.js
 var require_binary = __commonJS({
-  "node_modules/socket.io-parser/build/cjs/binary.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io-parser/build/cjs/binary.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.deconstructPacket = deconstructPacket;
@@ -50326,9 +50326,9 @@ var require_binary = __commonJS({
   }
 });
 
-// node_modules/socket.io-parser/build/cjs/index.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io-parser/build/cjs/index.js
 var require_cjs3 = __commonJS({
-  "node_modules/socket.io-parser/build/cjs/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io-parser/build/cjs/index.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -50640,9 +50640,9 @@ var require_cjs3 = __commonJS({
   }
 });
 
-// node_modules/socket.io/dist/client.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/dist/client.js
 var require_client = __commonJS({
-  "node_modules/socket.io/dist/client.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/dist/client.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -50909,9 +50909,9 @@ var require_client = __commonJS({
   }
 });
 
-// node_modules/socket.io/dist/typed-events.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/dist/typed-events.js
 var require_typed_events = __commonJS({
-  "node_modules/socket.io/dist/typed-events.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/dist/typed-events.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.StrictEventEmitter = void 0;
@@ -50983,9 +50983,9 @@ var require_typed_events = __commonJS({
   }
 });
 
-// node_modules/socket.io/dist/contrib/base64id.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/dist/contrib/base64id.js
 var require_base64id2 = __commonJS({
-  "node_modules/socket.io/dist/contrib/base64id.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/dist/contrib/base64id.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.base64id = void 0;
@@ -51048,9 +51048,9 @@ var require_base64id2 = __commonJS({
   }
 });
 
-// node_modules/socket.io/dist/socket-types.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/dist/socket-types.js
 var require_socket_types = __commonJS({
-  "node_modules/socket.io/dist/socket-types.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/dist/socket-types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.RESERVED_EVENTS = void 0;
@@ -51065,9 +51065,9 @@ var require_socket_types = __commonJS({
   }
 });
 
-// node_modules/socket.io/dist/broadcast-operator.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/dist/broadcast-operator.js
 var require_broadcast_operator = __commonJS({
-  "node_modules/socket.io/dist/broadcast-operator.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/dist/broadcast-operator.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -51507,9 +51507,9 @@ var require_broadcast_operator = __commonJS({
   }
 });
 
-// node_modules/socket.io/dist/socket.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/dist/socket.js
 var require_socket2 = __commonJS({
-  "node_modules/socket.io/dist/socket.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/dist/socket.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -52410,9 +52410,9 @@ var require_socket2 = __commonJS({
   }
 });
 
-// node_modules/socket.io/dist/namespace.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/dist/namespace.js
 var require_namespace = __commonJS({
-  "node_modules/socket.io/dist/namespace.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/dist/namespace.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -52922,9 +52922,9 @@ var require_namespace = __commonJS({
   }
 });
 
-// node_modules/socket.io-adapter/dist/contrib/yeast.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io-adapter/dist/contrib/yeast.js
 var require_yeast = __commonJS({
-  "node_modules/socket.io-adapter/dist/contrib/yeast.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io-adapter/dist/contrib/yeast.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.encode = encode3;
@@ -52962,9 +52962,9 @@ var require_yeast = __commonJS({
   }
 });
 
-// node_modules/socket.io-adapter/dist/in-memory-adapter.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io-adapter/dist/in-memory-adapter.js
 var require_in_memory_adapter = __commonJS({
-  "node_modules/socket.io-adapter/dist/in-memory-adapter.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io-adapter/dist/in-memory-adapter.js"(exports) {
     "use strict";
     var _a3;
     Object.defineProperty(exports, "__esModule", { value: true });
@@ -53348,9 +53348,9 @@ var require_in_memory_adapter = __commonJS({
   }
 });
 
-// node_modules/socket.io-adapter/dist/cluster-adapter.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io-adapter/dist/cluster-adapter.js
 var require_cluster_adapter = __commonJS({
-  "node_modules/socket.io-adapter/dist/cluster-adapter.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io-adapter/dist/cluster-adapter.js"(exports) {
     "use strict";
     var __rest = exports && exports.__rest || function(s, e) {
       var t = {};
@@ -54007,9 +54007,9 @@ var require_cluster_adapter = __commonJS({
   }
 });
 
-// node_modules/socket.io-adapter/dist/index.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io-adapter/dist/index.js
 var require_dist4 = __commonJS({
-  "node_modules/socket.io-adapter/dist/index.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io-adapter/dist/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.MessageType = exports.ClusterAdapterWithHeartbeat = exports.ClusterAdapter = exports.SessionAwareAdapter = exports.Adapter = void 0;
@@ -54033,9 +54033,9 @@ var require_dist4 = __commonJS({
   }
 });
 
-// node_modules/socket.io/dist/parent-namespace.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/dist/parent-namespace.js
 var require_parent_namespace = __commonJS({
-  "node_modules/socket.io/dist/parent-namespace.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/dist/parent-namespace.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -54102,9 +54102,9 @@ var require_parent_namespace = __commonJS({
   }
 });
 
-// node_modules/socket.io/dist/uws.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/dist/uws.js
 var require_uws = __commonJS({
-  "node_modules/socket.io/dist/uws.js"(exports) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/dist/uws.js"(exports) {
     "use strict";
     var __importDefault = exports && exports.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -54231,9 +54231,9 @@ var require_uws = __commonJS({
   }
 });
 
-// node_modules/socket.io/package.json
+// ../../Проекты/Games_Domoded/node_modules/socket.io/package.json
 var require_package = __commonJS({
-  "node_modules/socket.io/package.json"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/package.json"(exports, module) {
     module.exports = {
       name: "socket.io",
       version: "4.8.4",
@@ -54324,9 +54324,9 @@ var require_package = __commonJS({
   }
 });
 
-// node_modules/socket.io/dist/index.js
+// ../../Проекты/Games_Domoded/node_modules/socket.io/dist/index.js
 var require_dist5 = __commonJS({
-  "node_modules/socket.io/dist/index.js"(exports, module) {
+  "../../\u041F\u0440\u043E\u0435\u043A\u0442\u044B/Games_Domoded/node_modules/socket.io/dist/index.js"(exports, module) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? (function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -55112,11 +55112,11 @@ import { createHash, timingSafeEqual } from "node:crypto";
 import { resolve as resolve2 } from "node:path";
 import { fileURLToPath } from "node:url";
 
-// node_modules/socket.io/wrapper.mjs
+// ../../Проекты/Games_Domoded/node_modules/socket.io/wrapper.mjs
 var import_dist = __toESM(require_dist5(), 1);
 var { Server, Namespace, Socket } = import_dist.default;
 
-// node_modules/zod/v4/classic/external.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/classic/external.js
 var external_exports = {};
 __export(external_exports, {
   $brand: () => $brand,
@@ -55379,7 +55379,7 @@ __export(external_exports, {
   xor: () => xor
 });
 
-// node_modules/zod/v4/core/index.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/index.js
 var core_exports2 = {};
 __export(core_exports2, {
   $ZodAny: () => $ZodAny,
@@ -55696,7 +55696,7 @@ __export(core_exports2, {
   withParser: () => withParser
 });
 
-// node_modules/zod/v4/core/util.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/util.js
 var util_exports = {};
 __export(util_exports, {
   BIGINT_FORMAT_RANGES: () => BIGINT_FORMAT_RANGES,
@@ -56552,7 +56552,7 @@ function constantCatch(value) {
   return fn;
 }
 
-// node_modules/zod/v4/core/core.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/core.js
 var _a;
 var NEVER = /* @__PURE__ */ Object.freeze({
   status: "aborted"
@@ -56674,7 +56674,7 @@ function config(newConfig) {
   return globalConfig;
 }
 
-// node_modules/zod/v4/core/errors.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/errors.js
 function _getMessage() {
   const internals = this._zod;
   internals.message ?? (internals.message = JSON.stringify(internals.def, jsonStringifyReplacer, 2));
@@ -56866,7 +56866,7 @@ function prettifyError(error62) {
   return lines2.join("\n");
 }
 
-// node_modules/zod/v4/core/parse.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/parse.js
 function finalizeParams(callee, params) {
   return { callee: params?.callee ?? callee, Err: params?.Err };
 }
@@ -57026,7 +57026,7 @@ var _safeDecodeAsync = (_Err) => async (schema, value, _ctx) => {
 };
 var safeDecodeAsync = /* @__PURE__ */ _safeDecodeAsync($ZodRealError);
 
-// node_modules/zod/v4/core/regexes.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/regexes.js
 var regexes_exports = {};
 __export(regexes_exports, {
   anyString: () => anyString,
@@ -57198,7 +57198,7 @@ var sha512_hex = /^[0-9a-fA-F]{128}$/;
 var sha512_base64 = /* @__PURE__ */ fixedBase64(86, "==");
 var sha512_base64url = /* @__PURE__ */ fixedBase64url(86);
 
-// node_modules/zod/v4/core/checks.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/checks.js
 var $ZodCheck = /* @__PURE__ */ $constructor("$ZodCheck", (inst, def) => {
   var _a3;
   inst._zod ?? (inst._zod = {});
@@ -57674,7 +57674,7 @@ var $ZodCheckOverwrite = /* @__PURE__ */ $constructor("$ZodCheckOverwrite", (ins
   };
 });
 
-// node_modules/zod/v4/core/doc.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/doc.js
 var Doc = class {
   constructor(args = [], closed = {}) {
     this.content = [];
@@ -57715,14 +57715,14 @@ ${content.join("\n")}
   }
 };
 
-// node_modules/zod/v4/core/versions.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/versions.js
 var version = {
   major: 4,
   minor: 6,
   patch: 7
 };
 
-// node_modules/zod/v4/core/schemas.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/schemas.js
 var $ZodType = /* @__PURE__ */ $constructor("$ZodType", (inst, def) => {
   var _a3;
   inst ?? (inst = {});
@@ -60164,7 +60164,7 @@ function handleRefineResult(result, payload, input2, inst) {
   }
 }
 
-// node_modules/zod/v4/core/memoizer.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/memoizer.js
 var $ZodCyclicError = class extends Error {
   constructor() {
     super(`Cannot parse a reference cycle that closes through a transform`);
@@ -60441,7 +60441,7 @@ function isBackEdge(ctx, value) {
   return backEdges !== void 0 && isRef(value) && backEdges.has(value);
 }
 
-// node_modules/zod/v4/locales/index.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/index.js
 var locales_exports = {};
 __export(locales_exports, {
   ar: () => ar_default,
@@ -60509,7 +60509,7 @@ __export(locales_exports, {
   zhTW: () => zh_TW_default
 });
 
-// node_modules/zod/v4/locales/ar.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ar.js
 var error = () => {
   const Sizable = {
     string: { unit: "\u062D\u0631\u0641", verb: "\u0623\u0646 \u064A\u062D\u0648\u064A" },
@@ -60621,7 +60621,7 @@ function ar_default() {
   };
 }
 
-// node_modules/zod/v4/locales/az.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/az.js
 var error2 = () => {
   const Sizable = {
     string: { unit: "simvol", verb: "olmal\u0131d\u0131r" },
@@ -60732,7 +60732,7 @@ function az_default() {
   };
 }
 
-// node_modules/zod/v4/locales/be.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/be.js
 function getBelarusianPlural(count, one, few, many) {
   const absCount = Math.abs(count);
   const lastDigit = absCount % 10;
@@ -60901,7 +60901,7 @@ function be_default() {
   };
 }
 
-// node_modules/zod/v4/locales/bg.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/bg.js
 var error4 = () => {
   const Sizable = {
     string: { unit: "\u0441\u0438\u043C\u0432\u043E\u043B\u0430", verb: "\u0434\u0430 \u0441\u044A\u0434\u044A\u0440\u0436\u0430" },
@@ -61027,7 +61027,7 @@ function bg_default() {
   };
 }
 
-// node_modules/zod/v4/locales/bn.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/bn.js
 var error5 = () => {
   const Sizable = {
     string: { unit: "\u0985\u0995\u09CD\u09B7\u09B0", verb: "\u09A5\u09BE\u0995\u09A4\u09C7 \u09B9\u09AC\u09C7" },
@@ -61141,7 +61141,7 @@ function bn_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ca.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ca.js
 var error6 = () => {
   const Sizable = {
     string: { unit: "car\xE0cters", verb: "contenir" },
@@ -61255,7 +61255,7 @@ function ca_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ckb.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ckb.js
 var error7 = () => {
   const Sizable = {
     string: { unit: "\u067E\u06CC\u062A", verb: "\u0628\u06CE\u062A" },
@@ -61388,7 +61388,7 @@ function ckb_default() {
   };
 }
 
-// node_modules/zod/v4/locales/cs.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/cs.js
 var error8 = () => {
   const Sizable = {
     string: { unit: "znak\u016F", verb: "m\xEDt" },
@@ -61505,7 +61505,7 @@ function cs_default() {
   };
 }
 
-// node_modules/zod/v4/locales/da.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/da.js
 var error9 = () => {
   const Sizable = {
     string: { unit: "tegn", verb: "havde" },
@@ -61626,7 +61626,7 @@ function da_default() {
   };
 }
 
-// node_modules/zod/v4/locales/de.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/de.js
 var error10 = () => {
   const Sizable = {
     string: { unit: "Zeichen", verb: "zu haben" },
@@ -61740,7 +61740,7 @@ function de_default() {
   };
 }
 
-// node_modules/zod/v4/locales/el.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/el.js
 var error11 = () => {
   const Sizable = {
     string: { unit: "\u03C7\u03B1\u03C1\u03B1\u03BA\u03C4\u03AE\u03C1\u03B5\u03C2", verb: "\u03BD\u03B1 \u03AD\u03C7\u03B5\u03B9" },
@@ -61853,7 +61853,7 @@ function el_default() {
   };
 }
 
-// node_modules/zod/v4/locales/en.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/en.js
 var error12 = () => {
   const Sizable = {
     string: { unit: "characters", verb: "to have" },
@@ -61978,7 +61978,7 @@ function en_default() {
   };
 }
 
-// node_modules/zod/v4/locales/eo.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/eo.js
 var error13 = () => {
   const Sizable = {
     string: { unit: "karaktrojn", verb: "havi" },
@@ -62093,7 +62093,7 @@ function eo_default() {
   };
 }
 
-// node_modules/zod/v4/locales/es.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/es.js
 var error14 = () => {
   const Sizable = {
     string: { unit: "caracteres", verb: "tener" },
@@ -62230,7 +62230,7 @@ function es_default() {
   };
 }
 
-// node_modules/zod/v4/locales/fa.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/fa.js
 var error15 = () => {
   const Sizable = {
     string: { unit: "\u06A9\u0627\u0631\u0627\u06A9\u062A\u0631", verb: "\u062F\u0627\u0634\u062A\u0647 \u0628\u0627\u0634\u062F" },
@@ -62350,7 +62350,7 @@ function fa_default() {
   };
 }
 
-// node_modules/zod/v4/locales/fi.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/fi.js
 var error16 = () => {
   const Sizable = {
     string: { unit: "merkki\xE4", subject: "merkkijonon" },
@@ -62468,7 +62468,7 @@ function fi_default() {
   };
 }
 
-// node_modules/zod/v4/locales/fr.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/fr.js
 var error17 = () => {
   const Sizable = {
     string: { unit: "caract\xE8res", verb: "avoir" },
@@ -62598,7 +62598,7 @@ function fr_default() {
   };
 }
 
-// node_modules/zod/v4/locales/fr-CA.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/fr-CA.js
 var error18 = () => {
   const Sizable = {
     string: { unit: "caract\xE8res", verb: "avoir" },
@@ -62711,7 +62711,7 @@ function fr_CA_default() {
   };
 }
 
-// node_modules/zod/v4/locales/gu.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/gu.js
 var error19 = () => {
   const Sizable = {
     string: { unit: "\u0A85\u0A95\u0ACD\u0AB7\u0AB0", verb: "\u0AB9\u0ACB\u0AB5\u0ABE \u0A9C\u0ACB\u0A88\u0A8F" },
@@ -62825,7 +62825,7 @@ function gu_default() {
   };
 }
 
-// node_modules/zod/v4/locales/he.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/he.js
 var error20 = () => {
   const TypeNames = {
     string: { label: "\u05DE\u05D7\u05E8\u05D5\u05D6\u05EA", gender: "f" },
@@ -63027,7 +63027,7 @@ function he_default() {
   };
 }
 
-// node_modules/zod/v4/locales/hi.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/hi.js
 var error21 = () => {
   const Sizable = {
     string: { unit: "\u0905\u0915\u094D\u0937\u0930", verb: "\u0930\u0916\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F" },
@@ -63139,7 +63139,7 @@ function hi_default() {
   };
 }
 
-// node_modules/zod/v4/locales/hr.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/hr.js
 var error22 = () => {
   const Sizable = {
     string: { unit: "znakova", verb: "imati" },
@@ -63266,7 +63266,7 @@ function hr_default() {
   };
 }
 
-// node_modules/zod/v4/locales/hu.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/hu.js
 var error23 = () => {
   const Sizable = {
     string: { unit: "karakter", verb: "legyen" },
@@ -63380,7 +63380,7 @@ function hu_default() {
   };
 }
 
-// node_modules/zod/v4/locales/hy.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/hy.js
 function getArmenianPlural(count, one, many) {
   return Math.abs(count) === 1 ? one : many;
 }
@@ -63539,7 +63539,7 @@ function hy_default() {
   };
 }
 
-// node_modules/zod/v4/locales/id.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/id.js
 var error25 = () => {
   const Sizable = {
     string: { unit: "karakter", verb: "memiliki" },
@@ -63651,7 +63651,7 @@ function id_default() {
   };
 }
 
-// node_modules/zod/v4/locales/is.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/is.js
 var error26 = () => {
   const Sizable = {
     string: { unit: "stafi", verb: "a\xF0 hafa" },
@@ -63766,7 +63766,7 @@ function is_default() {
   };
 }
 
-// node_modules/zod/v4/locales/it.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/it.js
 var error27 = () => {
   const Sizable = {
     string: { unit: "caratteri", verb: "avere" },
@@ -63880,7 +63880,7 @@ function it_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ja.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ja.js
 var error28 = () => {
   const Sizable = {
     string: { unit: "\u6587\u5B57", verb: "\u3067\u3042\u308B" },
@@ -63993,7 +63993,7 @@ function ja_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ka.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ka.js
 var error29 = () => {
   const Sizable = {
     string: { unit: "\u10E1\u10D8\u10DB\u10D1\u10DD\u10DA\u10DD", verb: "\u10E3\u10DC\u10D3\u10D0 \u10E8\u10D4\u10D8\u10EA\u10D0\u10D5\u10D3\u10D4\u10E1" },
@@ -64111,7 +64111,7 @@ function ka_default() {
   };
 }
 
-// node_modules/zod/v4/locales/km.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/km.js
 var error30 = () => {
   const Sizable = {
     string: { unit: "\u178F\u17BD\u17A2\u1780\u17D2\u179F\u179A", verb: "\u1782\u17BD\u179A\u1798\u17B6\u1793" },
@@ -64227,12 +64227,12 @@ function km_default() {
   };
 }
 
-// node_modules/zod/v4/locales/kh.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/kh.js
 function kh_default() {
   return km_default();
 }
 
-// node_modules/zod/v4/locales/kn.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/kn.js
 var error31 = () => {
   const Sizable = {
     string: { unit: "\u0C85\u0C95\u0CCD\u0CB7\u0CB0\u0C97\u0CB3\u0CC1", verb: "\u0CB9\u0CCA\u0C82\u0CA6\u0CB2\u0CC1" },
@@ -64348,7 +64348,7 @@ function kn_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ko.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ko.js
 var error32 = () => {
   const Sizable = {
     string: { unit: "\uBB38\uC790", verb: "to have" },
@@ -64465,7 +64465,7 @@ function ko_default() {
   };
 }
 
-// node_modules/zod/v4/locales/lt.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/lt.js
 var capitalizeFirstCharacter = (text2) => {
   return text2.charAt(0).toUpperCase() + text2.slice(1);
 };
@@ -64673,7 +64673,7 @@ function lt_default() {
   };
 }
 
-// node_modules/zod/v4/locales/mk.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/mk.js
 var error34 = () => {
   const Sizable = {
     string: { unit: "\u0437\u043D\u0430\u0446\u0438", verb: "\u0434\u0430 \u0438\u043C\u0430\u0430\u0442" },
@@ -64788,7 +64788,7 @@ function mk_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ms.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ms.js
 var error35 = () => {
   const Sizable = {
     string: { unit: "aksara", verb: "mempunyai" },
@@ -64901,7 +64901,7 @@ function ms_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ne.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ne.js
 var error36 = () => {
   const Sizable = {
     string: { unit: "\u0905\u0915\u094D\u0937\u0930", verb: "\u0939\u0941\u0928\u0941\u092A\u0930\u094D\u091B" },
@@ -65013,7 +65013,7 @@ function ne_default() {
   };
 }
 
-// node_modules/zod/v4/locales/nl.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/nl.js
 var error37 = () => {
   const Sizable = {
     string: { unit: "tekens", verb: "heeft" },
@@ -65129,7 +65129,7 @@ function nl_default() {
   };
 }
 
-// node_modules/zod/v4/locales/nn.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/nn.js
 var error38 = () => {
   const Sizable = {
     string: { unit: "teikn", verb: "\xE5 ha" },
@@ -65243,7 +65243,7 @@ function nn_default() {
   };
 }
 
-// node_modules/zod/v4/locales/no.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/no.js
 var error39 = () => {
   const Sizable = {
     string: { unit: "tegn", verb: "\xE5 ha" },
@@ -65357,7 +65357,7 @@ function no_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ota.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ota.js
 var error40 = () => {
   const Sizable = {
     string: { unit: "harf", verb: "olmal\u0131d\u0131r" },
@@ -65472,7 +65472,7 @@ function ota_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ps.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ps.js
 var error41 = () => {
   const Sizable = {
     string: { unit: "\u062A\u0648\u06A9\u064A", verb: "\u0648\u0644\u0631\u064A" },
@@ -65592,7 +65592,7 @@ function ps_default() {
   };
 }
 
-// node_modules/zod/v4/locales/pl.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/pl.js
 var error42 = () => {
   const Sizable = {
     string: { unit: "znak\xF3w", verb: "mie\u0107" },
@@ -65707,7 +65707,7 @@ function pl_default() {
   };
 }
 
-// node_modules/zod/v4/locales/pt.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/pt.js
 var error43 = () => {
   const Sizable = {
     string: { unit: "caracteres" },
@@ -65851,7 +65851,7 @@ function pt_default() {
   };
 }
 
-// node_modules/zod/v4/locales/pt-BR.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/pt-BR.js
 var error44 = () => {
   const Sizable = {
     string: { unit: "caracteres" },
@@ -65996,7 +65996,7 @@ function pt_BR_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ro.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ro.js
 var error45 = () => {
   const Sizable = {
     string: { unit: "caractere", verb: "s\u0103 aib\u0103" },
@@ -66119,7 +66119,7 @@ function ro_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ru.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ru.js
 function getRussianPlural(count, one, few, many) {
   const absCount = Math.abs(count);
   const lastDigit = absCount % 10;
@@ -66288,7 +66288,7 @@ function ru_default() {
   };
 }
 
-// node_modules/zod/v4/locales/sk.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/sk.js
 var error47 = () => {
   const Sizable = {
     string: { unit: "znakov", verb: "ma\u0165" },
@@ -66405,7 +66405,7 @@ function sk_default() {
   };
 }
 
-// node_modules/zod/v4/locales/sl.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/sl.js
 var error48 = () => {
   const Sizable = {
     string: { unit: "znakov", verb: "imeti" },
@@ -66520,7 +66520,7 @@ function sl_default() {
   };
 }
 
-// node_modules/zod/v4/locales/sv.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/sv.js
 var error49 = () => {
   const Sizable = {
     string: { unit: "tecken", verb: "att ha" },
@@ -66636,7 +66636,7 @@ function sv_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ta.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ta.js
 var error50 = () => {
   const Sizable = {
     string: { unit: "\u0B8E\u0BB4\u0BC1\u0BA4\u0BCD\u0BA4\u0BC1\u0B95\u0BCD\u0B95\u0BB3\u0BCD", verb: "\u0B95\u0BCA\u0BA3\u0BCD\u0B9F\u0BBF\u0BB0\u0BC1\u0B95\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD" },
@@ -66752,7 +66752,7 @@ function ta_default() {
   };
 }
 
-// node_modules/zod/v4/locales/tg.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/tg.js
 var error51 = () => {
   const Sizable = {
     string: { unit: "\u0430\u043B\u043E\u043C\u0430\u0442", verb: "\u0434\u043E\u0448\u0442\u0430 \u0431\u043E\u0448\u0430\u0434" },
@@ -66869,7 +66869,7 @@ function tg_default() {
   };
 }
 
-// node_modules/zod/v4/locales/th.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/th.js
 var error52 = () => {
   const Sizable = {
     string: { unit: "\u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E29\u0E23", verb: "\u0E04\u0E27\u0E23\u0E21\u0E35" },
@@ -66985,7 +66985,7 @@ function th_default() {
   };
 }
 
-// node_modules/zod/v4/locales/tk.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/tk.js
 var error53 = () => {
   const Sizable = {
     string: { unit: "simwol", verb: "bolmaly" },
@@ -67093,7 +67093,7 @@ function tk_default() {
   };
 }
 
-// node_modules/zod/v4/locales/tr.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/tr.js
 var error54 = () => {
   const Sizable = {
     string: { unit: "karakter", verb: "olmal\u0131" },
@@ -67204,7 +67204,7 @@ function tr_default() {
   };
 }
 
-// node_modules/zod/v4/locales/uk.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/uk.js
 var error55 = () => {
   const Sizable = {
     string: { unit: "\u0441\u0438\u043C\u0432\u043E\u043B\u0456\u0432", verb: "\u043C\u0430\u0442\u0438\u043C\u0435" },
@@ -67318,12 +67318,12 @@ function uk_default() {
   };
 }
 
-// node_modules/zod/v4/locales/ua.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ua.js
 function ua_default() {
   return uk_default();
 }
 
-// node_modules/zod/v4/locales/ur.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/ur.js
 var error56 = () => {
   const Sizable = {
     string: { unit: "\u062D\u0631\u0648\u0641", verb: "\u06C1\u0648\u0646\u0627" },
@@ -67439,7 +67439,7 @@ function ur_default() {
   };
 }
 
-// node_modules/zod/v4/locales/uz.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/uz.js
 var error57 = () => {
   const Sizable = {
     string: { unit: "belgi", verb: "bo\u2018lishi kerak" },
@@ -67553,7 +67553,7 @@ function uz_default() {
   };
 }
 
-// node_modules/zod/v4/locales/vi.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/vi.js
 var error58 = () => {
   const Sizable = {
     string: { unit: "k\xFD t\u1EF1", verb: "c\xF3" },
@@ -67667,7 +67667,7 @@ function vi_default() {
   };
 }
 
-// node_modules/zod/v4/locales/zh-CN.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/zh-CN.js
 var error59 = () => {
   const Sizable = {
     string: { unit: "\u5B57\u7B26", verb: "\u5305\u542B" },
@@ -67782,7 +67782,7 @@ function zh_CN_default() {
   };
 }
 
-// node_modules/zod/v4/locales/zh-TW.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/zh-TW.js
 var error60 = () => {
   const Sizable = {
     string: { unit: "\u5B57\u5143", verb: "\u64C1\u6709" },
@@ -67895,7 +67895,7 @@ function zh_TW_default() {
   };
 }
 
-// node_modules/zod/v4/locales/yo.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/locales/yo.js
 var error61 = () => {
   const Sizable = {
     string: { unit: "\xE0mi", verb: "n\xED" },
@@ -68008,7 +68008,7 @@ function yo_default() {
   };
 }
 
-// node_modules/zod/v4/core/registries.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/registries.js
 var _a2;
 var $output = /* @__PURE__ */ Symbol("ZodOutput");
 var $input = /* @__PURE__ */ Symbol("ZodInput");
@@ -68058,7 +68058,7 @@ function registry() {
 (_a2 = globalThis).__zod_globalRegistry ?? (_a2.__zod_globalRegistry = registry());
 var globalRegistry = globalThis.__zod_globalRegistry;
 
-// node_modules/zod/v4/core/compile.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/compile.js
 var INVALID = /* @__PURE__ */ Symbol.for("zod.compile.invalid");
 var FALLBACK_FLAG = /* @__PURE__ */ Symbol.for("zod.compile.fallback");
 var ZodCompileAsyncError = class extends Error {
@@ -69668,7 +69668,7 @@ function generateTransformCheck(doc, ctx, schema, accessor) {
   return accessor;
 }
 
-// node_modules/zod/v4/core/api.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/api.js
 function snapshotChecks(def) {
   if (def.checks)
     def.checks = [...def.checks];
@@ -70727,7 +70727,7 @@ function _stringFormat(Class2, format, fnOrRegex, _params = {}) {
   return inst;
 }
 
-// node_modules/zod/v4/core/to-json-schema.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/to-json-schema.js
 function assignProps(target, ...sources) {
   for (const source of sources) {
     for (const key of Reflect.ownKeys(source)) {
@@ -71257,7 +71257,7 @@ var createStandardJSONSchemaMethod = (schema, io3, processors = {}) => (params) 
   return finalize(ctx, schema);
 };
 
-// node_modules/zod/v4/core/json-schema-processors.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/json-schema-processors.js
 var narrowMin = (agg, key, value) => {
   if (agg[key] === void 0 || value > agg[key])
     agg[key] = value;
@@ -72005,7 +72005,7 @@ function toJSONSchema(input2, params) {
   return finalize(ctx, input2);
 }
 
-// node_modules/zod/v4/core/json-schema-generator.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/json-schema-generator.js
 var JSONSchemaGenerator = class {
   /** @deprecated Access via ctx instead */
   get metadataRegistry() {
@@ -72083,10 +72083,10 @@ var JSONSchemaGenerator = class {
   }
 };
 
-// node_modules/zod/v4/core/json-schema.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/json-schema.js
 var json_schema_exports = {};
 
-// node_modules/zod/v4/classic/schemas.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/classic/schemas.js
 var schemas_exports2 = {};
 __export(schemas_exports2, {
   ZodAny: () => ZodAny,
@@ -72267,7 +72267,7 @@ __export(schemas_exports2, {
   xor: () => xor
 });
 
-// node_modules/zod/v4/classic/checks.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/classic/checks.js
 var checks_exports2 = {};
 __export(checks_exports2, {
   endsWith: () => _endsWith,
@@ -72302,7 +72302,7 @@ __export(checks_exports2, {
   uppercase: () => _uppercase
 });
 
-// node_modules/zod/v4/classic/errors.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/classic/errors.js
 var _installedErrorProtos = /* @__PURE__ */ new WeakSet([Object.prototype, Error.prototype]);
 function _lazyMethod(proto, key, make) {
   Object.defineProperty(proto, key, {
@@ -72348,7 +72348,7 @@ var ZodRealError = /* @__PURE__ */ $constructor("ZodError", initializer2, void 0
   Parent: Error
 });
 
-// node_modules/zod/v4/classic/parse.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/classic/parse.js
 var parse2 = /* @__PURE__ */ _parse(ZodRealError);
 var parseAsync2 = /* @__PURE__ */ _parseAsync(ZodRealError);
 var safeParse2 = /* @__PURE__ */ _safeParse(ZodRealError);
@@ -72362,7 +72362,7 @@ var safeDecode2 = /* @__PURE__ */ _safeDecode(ZodRealError);
 var safeEncodeAsync2 = /* @__PURE__ */ _safeEncodeAsync(ZodRealError);
 var safeDecodeAsync2 = /* @__PURE__ */ _safeDecodeAsync(ZodRealError);
 
-// node_modules/zod/v4/classic/schemas.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/classic/schemas.js
 function _ensureDefaultLocale() {
   if (!globalConfig.localeError)
     config(en_default());
@@ -73827,7 +73827,7 @@ function preprocess(fn, schema) {
   });
 }
 
-// node_modules/zod/v4/classic/compat.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/classic/compat.js
 var ZodIssueCode = {
   invalid_type: "invalid_type",
   too_big: "too_big",
@@ -73853,7 +73853,7 @@ var ZodFirstPartyTypeKind;
 /* @__PURE__ */ (function(ZodFirstPartyTypeKind2) {
 })(ZodFirstPartyTypeKind || (ZodFirstPartyTypeKind = {}));
 
-// node_modules/zod/v4/classic/iso.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/classic/iso.js
 var iso_exports = {};
 __export(iso_exports, {
   ZodISODate: () => ZodISODate,
@@ -73878,7 +73878,7 @@ function duration2(params) {
   return _isoDuration(ZodISODuration, params);
 }
 
-// node_modules/zod/v4/classic/from-json-schema.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/classic/from-json-schema.js
 var z = {
   ...schemas_exports2,
   ...checks_exports2,
@@ -74611,7 +74611,7 @@ function fromJSONSchema(schema, params) {
   return convertSchema(normalized, ctx);
 }
 
-// node_modules/zod/v4/core/visit.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/core/visit.js
 var RESOLVING = /* @__PURE__ */ Symbol("z.visit/resolving");
 function visit(schema, fnOrHandlers) {
   const fn = typeof fnOrHandlers === "function" ? fnOrHandlers : (node2, rewritten) => {
@@ -74766,7 +74766,7 @@ function visit(schema, fnOrHandlers) {
   return run(schema);
 }
 
-// node_modules/zod/v4/classic/deep-partial.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/classic/deep-partial.js
 function deepPartial(schema) {
   return visit(schema, {
     object: (s) => s.partial(),
@@ -74778,7 +74778,7 @@ function deepPartial(schema) {
   });
 }
 
-// node_modules/zod/v4/classic/in-out.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/classic/in-out.js
 function withChecks(side, checks) {
   if (!checks?.length)
     return side;
@@ -74808,7 +74808,7 @@ function output(schema) {
   });
 }
 
-// node_modules/zod/v4/classic/coerce.js
+// ../../Проекты/Games_Domoded/node_modules/zod/v4/classic/coerce.js
 var coerce_exports = {};
 __export(coerce_exports, {
   bigint: () => bigint3,
@@ -74866,11 +74866,14 @@ var DEFAULT_SETTINGS = {
   boardStyle: "oval",
   soundVolume: 100,
   musicVolume: 60,
+  hiddenSectors: ["supply"],
+  trainingFirstCase: true,
+  trainingPrepMinutes: 20,
   casesPerRound: 3,
   eventMinutes: 180,
-  prepMinutes: 5,
+  prepMinutes: 10,
   finalPrepMinutes: 5,
-  reportSeconds: 300,
+  reportSeconds: 180,
   trapDelayMin: 10,
   trapDelayMax: 15,
   hiddenCost: 1
@@ -74920,18 +74923,48 @@ var reportOrder = (teams, roundIndex) => {
   const k = teams.length ? Math.max(0, roundIndex) % teams.length : 0;
   return [...teams.slice(k), ...teams.slice(0, k)];
 };
+var DEFAULT_CASES = [
+  { sector: "production", ids: ["pr-04", "pr-03", "pr-02"] },
+  { sector: "quality", ids: ["ka-03", "ka-02", "ka-01"] },
+  { sector: "people", ids: ["pe-03", "pe-02", "pe-01"] },
+  { sector: "supply", ids: ["po-03", "po-02", "po-01"] }
+];
 function defaultPlan(library2, casesPerRound = DEFAULT_SETTINGS.casesPerRound) {
   const used = /* @__PURE__ */ new Set();
-  const pick2 = (sector2) => {
+  const pick2 = (sector2, preferred) => {
     const inSector = library2.cases.filter((c) => c.sector === sector2 && !used.has(c.id));
-    const withHidden = inSector.filter((c) => c.hidden.length > 0); const pool = withHidden.length ? withHidden : inSector; const found = pool[Math.floor(Math.random() * pool.length)];
+    const found = inSector.find((c) => c.id === preferred) ?? inSector.find((c) => c.level === "hard") ?? inSector[0];
     if (found) used.add(found.id);
     return found?.id ?? null;
   };
-  const trapAt = Math.min(1, casesPerRound - 1);
-  const rounds = SECTORS.flatMap((s, i) => Array.from({ length: casesPerRound }, (_, k) => makeRound("regular", s.id, pick2(s.id), i > 0 && k === trapAt)));
-  rounds.push(makeRound("final", "production", pick2("production"), false));
-  return rounds;
+  return DEFAULT_CASES.flatMap((s) => Array.from({ length: casesPerRound }, (_, k) => makeRound("regular", s.sector, pick2(s.sector, s.ids[k]), true)));
+}
+var isRoundHidden = (s, r) => !!r.hidden || (s.settings.hiddenSectors ?? []).includes(r.sector);
+var activeRounds = (s) => s.rounds.map((r, index) => ({ ...r, index })).filter((r) => !isRoundHidden(s, r));
+function isTrainingRound(s, r) {
+  if (r.training !== void 0) return r.training;
+  if (!s.settings.trainingFirstCase || r.kind !== "regular" || s.rounds.some((x) => x.training === true)) return false;
+  return activeRounds(s).find((x) => x.kind === "regular")?.id === r.id;
+}
+var discussionMinutes = (s, r) => isTrainingRound(s, r) ? s.settings.trainingPrepMinutes : r.kind === "final" ? s.settings.finalPrepMinutes : s.settings.prepMinutes;
+function fixTraining(s, r) {
+  r.training ??= isTrainingRound(s, r);
+}
+function validateVisiblePlan(s, before, now) {
+  const visible = activeRounds(s);
+  if (!visible.some((r) => r.kind === "regular")) fail("\u0412 \u0438\u0433\u0440\u0435 \u0434\u043E\u043B\u0436\u0435\u043D \u043E\u0441\u0442\u0430\u0442\u044C\u0441\u044F \u0445\u043E\u0442\u044F \u0431\u044B \u043E\u0434\u0438\u043D \u0432\u0438\u0434\u0438\u043C\u044B\u0439 \u043A\u0435\u0439\u0441");
+  for (const r of before.rounds) {
+    if (r.phase === "ready" || r.phase === "done" || isRoundHidden(before, r)) continue;
+    const next = s.rounds.find((x) => x.id === r.id);
+    if (!next || isRoundHidden(s, next)) fail("\u041D\u0435\u043B\u044C\u0437\u044F \u0441\u043A\u0440\u044B\u0442\u044C \u0438\u0434\u0443\u0449\u0438\u0439 \u043A\u0435\u0439\u0441. \u0421\u043D\u0430\u0447\u0430\u043B\u0430 \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u0435 \u0435\u0433\u043E.");
+  }
+  const current = s.rounds[s.current];
+  if (current && isRoundHidden(s, current)) {
+    pause(s.timer, now);
+    s.introAt = null;
+    s.current = visible.filter((r) => r.index < s.current).at(-1)?.index ?? -1;
+    s.view = "board";
+  }
 }
 function planPlaces(rounds) {
   const regular = rounds.filter((r) => r.kind === "regular").length;
@@ -74958,19 +74991,24 @@ function createGame(library2, title = "\u041F\u0440\u0438\u0447\u0438\u043D\u043
     id: newId(),
     title,
     teams: makeTeams(teamCount),
-    settings: { ...DEFAULT_SETTINGS },
+    settings: structuredClone(DEFAULT_SETTINGS),
     rounds: defaultPlan(library2),
     current: -1,
-    music: true,
     view: "welcome",
+    music: true,
     slide: 0,
-    timer: freshTimer("\u041E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435", DEFAULT_SETTINGS.prepMinutes * 6e4),
-    usedTraps: []
+    timer: freshTimer("\u0422\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043E\u0447\u043D\u043E\u0435 \u043E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435", DEFAULT_SETTINGS.trainingPrepMinutes * 6e4),
+    usedTraps: [],
+    setupRequired: true
   };
 }
-var currentRound = (s) => s.rounds[s.current] ?? null;
+var currentRound = (s) => {
+  const r = s.rounds[s.current];
+  return r && !isRoundHidden(s, r) ? r : null;
+};
 var caseOf = (r, library2) => r?.caseId ? library2.cases.find((c) => c.id === r.caseId) ?? null : null;
-var prepMs = (s, r) => (r.kind === "final" ? s.settings.finalPrepMinutes : s.settings.prepMinutes) * 6e4;
+var prepMs = (s, r) => discussionMinutes(s, r) * 6e4;
+var prepLabel = (s, r) => isTrainingRound(s, r) ? "\u0422\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043E\u0447\u043D\u043E\u0435 \u043E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435" : r.kind === "final" ? "\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u0434\u043E\u043A\u043B\u0430\u0434\u0430" : "\u041E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435";
 function needRound(s) {
   return currentRound(s) ?? fail("\u0421\u043D\u0430\u0447\u0430\u043B\u0430 \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0440\u0430\u0443\u043D\u0434");
 }
@@ -74989,21 +75027,23 @@ function fireTrap(s, r, library2, now, rand) {
     r.trap = { delaySec: 0, cardId: pickTrap(s, library2, rand).id, firedAt: null, closedAt: null };
   }
   r.trap.firedAt = now;
+  r.trap.resumesTimer = isRunning(s.timer);
   pause(s.timer, now);
 }
 function enterRound(s, index, now) {
   pause(s.timer, now);
   s.current = index;
   const r = s.rounds[index];
-  s.timer = freshTimer(r.kind === "final" ? "\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u0434\u043E\u043A\u043B\u0430\u0434\u0430" : "\u041E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435", prepMs(s, r));
+  s.timer = freshTimer(prepLabel(s, r), prepMs(s, r));
 }
 function showSituation(s, r) {
   if (!r.caseId) fail("\u0414\u043B\u044F \u0440\u0430\u0443\u043D\u0434\u0430 \u043D\u0435 \u0432\u044B\u0431\u0440\u0430\u043D\u0430 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044F. \u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0435\u0451 \u0432 \xAB\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0435\xBB.");
   if (r.phase !== "ready" && r.phase !== "situation") fail("\u0421\u0438\u0442\u0443\u0430\u0446\u0438\u044F \u0443\u0436\u0435 \u043E\u0442\u043A\u0440\u044B\u0442\u0430");
+  fixTraining(s, r);
   r.phase = "situation";
   s.music = false;
   s.view = "round";
-  s.timer = freshTimer(r.kind === "final" ? "\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u0434\u043E\u043A\u043B\u0430\u0434\u0430" : "\u041E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435", prepMs(s, r));
+  s.timer = freshTimer(prepLabel(s, r), prepMs(s, r));
 }
 var INTRO_DELAY_MS = 2600;
 var QUIET = [
@@ -75019,6 +75059,7 @@ var QUIET = [
   "timerAdd",
   "timerFactor",
   "sellHidden",
+  "replaceHidden",
   "undoPurchase",
   "score",
   "penalty",
@@ -75049,21 +75090,34 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
       break;
     }
     case "setSettings": {
-      const next = { ...s.settings, ...cmd.settings };
+      const next = { ...s.settings, ...cmd.settings, boardStyle: "oval" };
       if (next.trapDelayMin > next.trapDelayMax) next.trapDelayMax = next.trapDelayMin;
       if (next.casesPerRound !== s.settings.casesPerRound && s.rounds.every((r2) => r2.phase === "ready")) {
         s.rounds = defaultPlan(library2, next.casesPerRound);
         s.current = -1;
       }
       s.settings = next;
+      validateVisiblePlan(s, state, now);
       const r = currentRound(s);
-      if (r && (r.phase === "ready" || r.phase === "situation") && !isRunning(s.timer)) s.timer.durationMs = prepMs(s, r);
+      const previousRound = r && state.rounds.find((old) => old.id === r.id);
+      const discussionTimeChanged = r && previousRound && prepMs(s, r) !== prepMs(state, previousRound);
+      const reportTimeChanged = s.settings.reportSeconds !== state.settings.reportSeconds;
+      const discussionTimer = r && (r.phase === "ready" || r.phase === "situation" || r.phase === "discussion");
+      if (r && (discussionTimer && discussionTimeChanged || r.phase === "reports" && reportTimeChanged)) {
+        const spent = elapsed(s.timer, now);
+        s.timer.durationMs = discussionTimer ? prepMs(s, r) : s.settings.reportSeconds * 1e3;
+        if (discussionTimer) s.timer.label = prepLabel(s, r);
+        if (spent >= s.timer.durationMs) {
+          s.timer.elapsedMs = spent;
+          s.timer.startedAt = null;
+        }
+      }
       break;
     }
     case "addRound": {
       const regular = s.rounds.filter((r) => r.kind === "regular").length;
       const sector2 = SECTORS[regular % SECTORS.length].id;
-      const round = makeRound(cmd.kind, sector2, library2.cases.find((c) => c.sector === sector2)?.id ?? null, false);
+      const round = makeRound(cmd.kind, sector2, library2.cases.find((c) => c.sector === sector2)?.id ?? null, true);
       const finalAt = s.rounds.findIndex((r) => r.kind === "final");
       if (cmd.kind === "regular" && finalAt >= 0) {
         s.rounds.splice(finalAt, 0, round);
@@ -75078,6 +75132,7 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
       s.rounds.splice(i, 1);
       if (s.current > i) s.current--;
       else if (s.current === i) s.current = -1;
+      validateVisiblePlan(s, state, now);
       break;
     }
     case "updateRound": {
@@ -75087,7 +75142,16 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
         if (cmd.caseId === void 0) r.caseId = library2.cases.find((c) => c.sector === cmd.sector)?.id ?? null;
       }
       if (cmd.caseId !== void 0) r.caseId = cmd.caseId;
-      if (cmd.withTrap !== void 0) r.withTrap = cmd.withTrap;
+      if (cmd.withTrap !== void 0) {
+        r.withTrap = cmd.withTrap;
+        if (!r.withTrap && r.trap?.firedAt === null) r.trap = null;
+        if (r.withTrap && r.phase === "discussion" && !isTrainingRound(s, r) && !r.trap && r.id === currentRound(s)?.id) {
+          r.trap = { delaySec: elapsed(s.timer, now) / 1e3 + randInt(rand, s.settings.trapDelayMin, s.settings.trapDelayMax), cardId: pickTrap(s, library2, rand).id, firedAt: null, closedAt: null };
+        }
+      }
+      if (cmd.hidden !== void 0) r.hidden = cmd.hidden;
+      if (r.caseId && !library2.cases.some((c) => c.id === r.caseId && c.sector === r.sector)) fail("\u0421\u0438\u0442\u0443\u0430\u0446\u0438\u044F \u0434\u043E\u043B\u0436\u043D\u0430 \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u044C\u0441\u044F \u043A \u0432\u044B\u0431\u0440\u0430\u043D\u043D\u043E\u043C\u0443 \u043F\u043E\u043B\u044E");
+      validateVisiblePlan(s, state, now);
       break;
     }
     case "moveRound": {
@@ -75101,26 +75165,37 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
     }
     case "autoPlan":
       if (s.rounds.some((r) => r.phase !== "ready")) fail("\u041F\u043B\u0430\u043D \u043C\u043E\u0436\u043D\u043E \u043F\u0435\u0440\u0435\u0441\u043E\u0431\u0440\u0430\u0442\u044C \u0442\u043E\u043B\u044C\u043A\u043E \u0434\u043E \u043D\u0430\u0447\u0430\u043B\u0430 \u0438\u0433\u0440\u044B. \u0421\u043D\u0430\u0447\u0430\u043B\u0430 \u043D\u0430\u0436\u043C\u0438\u0442\u0435 \xAB\u041D\u0430\u0447\u0430\u0442\u044C \u0437\u0430\u043D\u043E\u0432\u043E\xBB.");
+      s.settings.hiddenSectors = [...DEFAULT_SETTINGS.hiddenSectors];
       s.rounds = defaultPlan(library2, s.settings.casesPerRound ?? DEFAULT_SETTINGS.casesPerRound);
       s.current = -1;
+      validateVisiblePlan(s, state, now);
       break;
     case "resetProgress":
-      s.rounds = s.rounds.map((r) => ({ ...makeRound(r.kind, r.sector, r.caseId, r.withTrap), id: r.id }));
+      s.rounds = s.rounds.map((r) => ({ ...makeRound(r.kind, r.sector, r.caseId, r.withTrap), id: r.id, hidden: r.hidden }));
+      s.teams = s.teams.map((team, i) => ({ ...team, name: `\u041A\u043E\u043C\u0430\u043D\u0434\u0430 ${i + 1}` }));
+      s.settings.boardStyle = "oval";
+      s.setupRequired = true;
       s.current = -1;
       s.view = "welcome";
       s.music = true;
       s.slide = 0;
       s.usedTraps = [];
-      s.timer = freshTimer("\u041E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435", s.settings.prepMinutes * 6e4);
+      s.timer = freshTimer("\u041E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435", discussionMinutes(s, activeRounds(s)[0]) * 6e4);
+      break;
+    case "finishSetup":
+      validateVisiblePlan(s, state, now);
+      if (activeRounds(s).some((r) => !r.caseId || !library2.cases.some((c) => c.id === r.caseId && c.sector === r.sector))) fail("\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044E \u0434\u043B\u044F \u043A\u0430\u0436\u0434\u043E\u0433\u043E \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0433\u043E \u043A\u0435\u0439\u0441\u0430");
+      s.setupRequired = false;
       break;
     case "goToRound":
       if (!s.rounds[cmd.index]) fail("\u0420\u0430\u0443\u043D\u0434 \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D");
+      if (isRoundHidden(s, s.rounds[cmd.index])) fail("\u0421\u043D\u0430\u0447\u0430\u043B\u0430 \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435 \u0441\u043A\u0440\u044B\u0442\u044B\u0439 \u043A\u0435\u0439\u0441 \u0438\u043B\u0438 \u043F\u043E\u043B\u0435");
       enterRound(s, cmd.index, now);
       break;
     case "nextRound": {
-      const next = s.current + 1;
-      if (!s.rounds[next]) fail("\u042D\u0442\u043E \u0431\u044B\u043B \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u043A\u0435\u0439\u0441");
-      enterRound(s, next, now);
+      const next = activeRounds(s).find((r) => r.index > s.current);
+      if (!next) fail("\u042D\u0442\u043E \u0431\u044B\u043B \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439 \u043A\u0435\u0439\u0441");
+      enterRound(s, next.index, now);
       s.music = false;
       s.view = "board";
       s.introAt = now + INTRO_DELAY_MS;
@@ -75136,7 +75211,7 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
       r.phase = "discussion";
       s.music = false;
       s.view = "round";
-      if (r.withTrap && !r.trap) {
+      if (r.withTrap && !isTrainingRound(s, r) && !r.trap) {
         r.trap = {
           delaySec: randInt(rand, s.settings.trapDelayMin, s.settings.trapDelayMax),
           cardId: pickTrap(s, library2, rand).id,
@@ -75165,7 +75240,6 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
     }
     case "fireTrap": {
       const r = needRound(s);
-      if (r.phase !== "discussion") fail("\u041B\u043E\u0432\u0443\u0448\u043A\u0443 \u043C\u043E\u0436\u043D\u043E \u0432\u044B\u0431\u0440\u043E\u0441\u0438\u0442\u044C \u0442\u043E\u043B\u044C\u043A\u043E \u0432\u043E \u0432\u0440\u0435\u043C\u044F \u043E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u044F");
       if (trapShown(r)) fail("\u041B\u043E\u0432\u0443\u0448\u043A\u0430 \u0443\u0436\u0435 \u043D\u0430 \u044D\u043A\u0440\u0430\u043D\u0435");
       if (r.trap?.closedAt) r.trap = null;
       fireTrap(s, r, library2, now, rand);
@@ -75181,11 +75255,12 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
       const r = needRound(s);
       if (!r.trap || !trapShown(r)) fail("\u041B\u043E\u0432\u0443\u0448\u043A\u0438 \u043D\u0430 \u044D\u043A\u0440\u0430\u043D\u0435 \u043D\u0435\u0442");
       r.trap.closedAt = now;
-      if (r.phase === "discussion") resume(s.timer, now);
+      if (r.trap.resumesTimer ?? r.phase === "discussion") resume(s.timer, now);
       break;
     }
     case "finishDiscussion": {
       const r = needRound(s);
+      fixTraining(s, r);
       if (r.trap && trapShown(r)) r.trap.closedAt = now;
       pause(s.timer, now);
       r.phase = "reports";
@@ -75195,6 +75270,7 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
     }
     case "startReport": {
       const r = needRound(s);
+      fixTraining(s, r);
       const team = s.teams.find((t) => t.id === cmd.teamId) ?? fail("\u041A\u043E\u043C\u0430\u043D\u0434\u0430 \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u0430");
       if (r.phase !== "reports") r.phase = "reports";
       r.reporterId = team.id;
@@ -75207,11 +75283,30 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
     }
     case "sellHidden": {
       const r = needRound(s);
+      fixTraining(s, r);
       const c = caseOf(r, library2) ?? fail("\u0423 \u0440\u0430\u0443\u043D\u0434\u0430 \u043D\u0435\u0442 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438");
       if (!s.teams.some((t) => t.id === cmd.teamId)) fail("\u041A\u043E\u043C\u0430\u043D\u0434\u0430 \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u0430");
       const sold = new Set(r.purchases.filter((p) => p.teamId === cmd.teamId).map((p) => p.text));
-      const text2 = [...c.hidden, ...c.hiddenExtra].find((t) => !sold.has(t)) ?? fail("\u0421\u043A\u0440\u044B\u0442\u044B\u0435 \u0444\u0430\u043A\u0442\u044B \u0434\u043B\u044F \u044D\u0442\u043E\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u044B \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0438\u0441\u044C");
-      r.purchases.push({ teamId: cmd.teamId, text: text2, at: now });
+      const pool = [...c.hidden, ...c.hiddenExtra];
+      const factIndex = cmd.factIndex ?? pool.findIndex((text3) => !sold.has(text3));
+      if (!Number.isInteger(factIndex) || factIndex < 0 || factIndex >= pool.length) {
+        fail(cmd.factIndex === void 0 ? "\u0421\u043A\u0440\u044B\u0442\u044B\u0435 \u0444\u0430\u043A\u0442\u044B \u0434\u043B\u044F \u044D\u0442\u043E\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u044B \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0438\u0441\u044C" : "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044E\u0449\u0438\u0439 \u0441\u043A\u0440\u044B\u0442\u044B\u0439 \u0444\u0430\u043A\u0442");
+      }
+      const text2 = pool[factIndex];
+      if (sold.has(text2)) fail("\u042D\u0442\u043E\u0442 \u0444\u0430\u043A\u0442 \u0443\u0436\u0435 \u0432\u044B\u0434\u0430\u043D \u044D\u0442\u043E\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u0435");
+      r.purchases.push({ id: newId(), teamId: cmd.teamId, factIndex, text: text2, at: now });
+      break;
+    }
+    case "replaceHidden": {
+      const r = needRound(s);
+      const purchase = r.purchases.find((p) => p.id === cmd.purchaseId) ?? fail("\u0412\u044B\u0434\u0430\u0447\u0430 \u0444\u0430\u043A\u0442\u0430 \u0432 \u044D\u0442\u043E\u043C \u043A\u0435\u0439\u0441\u0435 \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u0430");
+      const c = caseOf(r, library2) ?? fail("\u0423 \u0440\u0430\u0443\u043D\u0434\u0430 \u043D\u0435\u0442 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438");
+      const pool = [...c.hidden, ...c.hiddenExtra];
+      if (!Number.isInteger(cmd.factIndex) || cmd.factIndex < 0 || cmd.factIndex >= pool.length) fail("\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044E\u0449\u0438\u0439 \u0441\u043A\u0440\u044B\u0442\u044B\u0439 \u0444\u0430\u043A\u0442");
+      const text2 = pool[cmd.factIndex];
+      if (r.purchases.some((p) => p.id !== purchase.id && p.teamId === purchase.teamId && p.text === text2)) fail("\u042D\u0442\u043E\u0442 \u0444\u0430\u043A\u0442 \u0443\u0436\u0435 \u0432\u044B\u0434\u0430\u043D \u044D\u0442\u043E\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u0435");
+      purchase.factIndex = cmd.factIndex;
+      purchase.text = text2;
       break;
     }
     case "undoPurchase": {
@@ -75222,6 +75317,7 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
     }
     case "score": {
       const r = needRound(s);
+      fixTraining(s, r);
       const criterion2 = CRITERIA.find((c) => c.id === cmd.criterion) ?? fail("\u041D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u0439 \u043A\u0440\u0438\u0442\u0435\u0440\u0438\u0439");
       if (!s.teams.some((t) => t.id === cmd.teamId)) fail("\u041A\u043E\u043C\u0430\u043D\u0434\u0430 \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u0430");
       const result = r.results[cmd.teamId] ??= { scores: {}, penalty: 0 };
@@ -75231,6 +75327,7 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
     }
     case "penalty": {
       const r = needRound(s);
+      fixTraining(s, r);
       if (!s.teams.some((t) => t.id === cmd.teamId)) fail("\u041A\u043E\u043C\u0430\u043D\u0434\u0430 \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u0430");
       const result = r.results[cmd.teamId] ??= { scores: {}, penalty: 0 };
       result.penalty = Math.max(0, Math.min(40, Math.round(cmd.value)));
@@ -75249,6 +75346,7 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
     }
     case "finishRound": {
       const r = needRound(s);
+      fixTraining(s, r);
       pause(s.timer, now);
       if (r.trap && trapShown(r)) r.trap.closedAt = now;
       r.phase = "done";
@@ -75262,7 +75360,7 @@ function apply(state, cmd, library2, now = Date.now(), rand = Math.random) {
       break;
     }
     case "setMusic":
-      s.music = !!cmd.on;
+      s.music = cmd.on;
       break;
     case "setView":
       s.view = cmd.view;
@@ -75302,9 +75400,11 @@ function roundScore(state, r, teamId) {
   return sum - (result?.penalty ?? 0) - bought * state.settings.hiddenCost;
 }
 function scoreTable(state) {
+  const rounds = activeRounds(state);
   const rows = state.teams.map((team) => {
-    const perRound = state.rounds.map((r) => roundScore(state, r, team.id));
-    return { teamId: team.id, perRound, total: perRound.reduce((a, b) => a + (b ?? 0), 0), place: 0 };
+    const perRound = rounds.map((r) => roundScore(state, r, team.id));
+    const total = perRound.reduce((sum, score, i) => sum + (isTrainingRound(state, rounds[i]) ? 0 : score ?? 0), 0);
+    return { teamId: team.id, perRound, total, place: 0 };
   });
   const totals = [...new Set(rows.map((r) => r.total))].sort((a, b) => b - a);
   for (const row of rows) row.place = totals.indexOf(row.total) + 1;
@@ -75334,17 +75434,22 @@ function toPublic(state, library2) {
   const purchases = {};
   for (const p of r?.purchases ?? []) purchases[p.teamId] = (purchases[p.teamId] ?? 0) + 1;
   const visible = r && r.phase !== "ready";
-  const places = planPlaces(state.rounds);
+  const rounds = activeRounds(state);
+  const places = planPlaces(rounds);
+  const position = rounds.findIndex((x) => x.index === state.current);
   return {
     title: state.title,
     teams: state.teams,
     view: state.view,
-    music: !!state.music,
+    music: state.music ?? false,
     musicVolume: state.settings.musicVolume ?? 60,
     slide: state.slide,
     timer: state.timer,
     round: r ? {
-      number: state.current + 1,
+      number: position + 1,
+      index: state.current,
+      training: isTrainingRound(state, r),
+      discussionMinutes: discussionMinutes(state, r),
       kind: r.kind,
       sector: r.sector,
       phase: r.phase,
@@ -75355,15 +75460,22 @@ function toPublic(state, library2) {
       rootCause: c && r.revealCause ? c.rootCause : null,
       systemCause: c && r.revealCause && c.systemCause ? c.systemCause : null,
       reporterId: r.reporterId,
-      reportOrder: reportOrder(state.teams, state.current).map((t) => t.id),
+      reportOrder: reportOrder(state.teams, position).map((t) => t.id),
       reported: r.reported ?? [],
       purchases,
-      place: places[state.current]
+      place: places[position]
     } : null,
-    rounds: state.rounds.map((x, i) => ({ number: i + 1, kind: x.kind, sector: x.sector, phase: x.phase, ...places[i] })),
+    rounds: rounds.map((x, i) => ({ number: i + 1, index: x.index, training: isTrainingRound(state, x), kind: x.kind, sector: x.sector, phase: x.phase, ...places[i] })),
     table: scoreTable(state),
-    settings: { hiddenCost: state.settings.hiddenCost },
-    boardStyle: state.settings.boardStyle ?? "oval",
+    settings: {
+      hiddenCost: state.settings.hiddenCost,
+      prepMinutes: state.settings.prepMinutes,
+      reportSeconds: state.settings.reportSeconds,
+      trainingFirstCase: state.settings.trainingFirstCase,
+      trainingPrepMinutes: state.settings.trainingPrepMinutes,
+      finalPrepMinutes: state.settings.finalPrepMinutes
+    },
+    boardStyle: "oval",
     soundVolume: state.settings.soundVolume ?? 100
   };
 }
@@ -75378,37 +75490,40 @@ var momentKey = (s) => {
 function nextStep(s, now = Date.now()) {
   const key = momentKey(s);
   const step = (label, icon, cmd) => ({ key, label, icon, cmd });
-  const places = planPlaces(s.rounds);
+  const rounds = activeRounds(s);
+  const places = planPlaces(rounds);
+  const position = rounds.findIndex((r2) => r2.index === s.current);
   const r = currentRound(s);
+  if (r && trapShown(r)) return step("\u041B\u043E\u0432\u0443\u0448\u043A\u0430 \u043F\u0440\u043E\u0447\u0438\u0442\u0430\u043D\u0430 \u2014 \u0437\u0430\u043A\u0440\u044B\u0442\u044C", "Play", { type: "closeTrap" });
   if (!r) {
-    if (!s.rounds.length) return null;
+    if (!rounds.length) return null;
     if (s.view === "welcome") return step("\u041D\u0430\u0447\u0430\u0442\u044C \u0438\u0433\u0440\u0443: \u043F\u0440\u0430\u0432\u0438\u043B\u0430", "Play", { type: "setView", view: "rules", slide: 0 });
     if (s.view === "rules") {
       const i = Math.min(s.slide, RULE_SLIDES.length - 1);
       return i < RULE_SLIDES.length - 1 ? step(`\u041F\u0440\u0430\u0432\u0438\u043B\u0430 ${i + 2} \u0438\u0437 ${RULE_SLIDES.length}: ${RULE_SLIDE_TITLES[RULE_SLIDES[i + 1]]}`, "ChevronRight", { type: "setView", view: "rules", slide: i + 1 }) : step("\u0420\u043E\u043B\u0438 \u0432 \u043A\u043E\u043C\u0430\u043D\u0434\u0435", "Users", { type: "setView", view: "roles" });
     }
-    return step(`\u041F\u0435\u0440\u0432\u044B\u0439 \u043A\u0435\u0439\u0441: ${introName(places[0], sectorById(s.rounds[0].sector).title)}`, "Play", { type: "nextRound" });
+    return step(`\u041F\u0435\u0440\u0432\u044B\u0439 \u043A\u0435\u0439\u0441: ${introName(places[0], sectorById(rounds[0].sector).title)}`, "Play", { type: "nextRound" });
   }
-  const p = places[s.current];
+  const p = places[position];
   switch (r.phase) {
     case "ready":
       return s.view === "round" ? step("\u041F\u043E\u043A\u0430\u0437\u0430\u0442\u044C \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044E", "Presentation", { type: "showSituation" }) : step(`\u0417\u0430\u0441\u0442\u0430\u0432\u043A\u0430: ${introName(p, sectorById(r.sector).title)}`, "Flag", { type: "setView", view: "round" });
     case "situation": {
-      const min = r.kind === "final" ? s.settings.finalPrepMinutes : s.settings.prepMinutes;
-      return step(`\u0421\u0442\u0430\u0440\u0442 \u043E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u044F \xB7 ${min} \u043C\u0438\u043D`, "Play", { type: "startDiscussion" });
+      const min = discussionMinutes(s, r);
+      return step(`${isTrainingRound(s, r) ? "\u0421\u0442\u0430\u0440\u0442 \u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0438" : "\u0421\u0442\u0430\u0440\u0442 \u043E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u044F"} \xB7 ${min} \u043C\u0438\u043D`, "Play", { type: "startDiscussion" });
     }
     case "discussion":
       if (trapShown(r)) return step("\u041B\u043E\u0432\u0443\u0448\u043A\u0430 \u043F\u0440\u043E\u0447\u0438\u0442\u0430\u043D\u0430 \u2014 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u043E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435", "Play", { type: "closeTrap" });
       return step(remaining(s.timer, now) === 0 ? "\u0412\u0440\u0435\u043C\u044F \u0432\u044B\u0448\u043B\u043E \u2014 \u043A \u0434\u043E\u043A\u043B\u0430\u0434\u0430\u043C" : "\u0417\u0430\u043A\u043E\u043D\u0447\u0438\u0442\u044C \u043E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435 \u2014 \u043A \u0434\u043E\u043A\u043B\u0430\u0434\u0430\u043C", "Mic", { type: "finishDiscussion" });
     case "reports": {
-      const next = reportOrder(s.teams, s.current).find((t) => !(r.reported ?? []).includes(t.id));
+      const next = reportOrder(s.teams, position).find((t) => !(r.reported ?? []).includes(t.id));
       if (next) return step(`\u0414\u043E\u043A\u043B\u0430\u0434: ${teamTitle(next)}`, "Mic", { type: "startReport", teamId: next.id });
       if (!r.revealCause) return step("\u041F\u043E\u043A\u0430\u0437\u0430\u0442\u044C \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0439 \u043E\u0442\u0432\u0435\u0442", "Target", { type: "toggleReveal" });
-      return step("\u0417\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044C \u043A\u0435\u0439\u0441 \u2014 \u0431\u0430\u043B\u043B\u044B \u0432 \u0440\u0435\u0439\u0442\u0438\u043D\u0433", "Flag", { type: "finishRound" });
+      return step(isTrainingRound(s, r) ? "\u0417\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044C \u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0443 \u2014 \u0431\u0435\u0437 \u0431\u0430\u043B\u043B\u043E\u0432 \u0432 \u0440\u0435\u0439\u0442\u0438\u043D\u0433" : "\u0417\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044C \u043A\u0435\u0439\u0441 \u2014 \u0431\u0430\u043B\u043B\u044B \u0432 \u0440\u0435\u0439\u0442\u0438\u043D\u0433", "Flag", { type: "finishRound" });
     }
     case "done": {
-      const next = s.rounds[s.current + 1];
-      if (next) return step(`\u0414\u0430\u043B\u044C\u0448\u0435: ${introName(places[s.current + 1], sectorById(next.sector).title)}`, "Play", { type: "nextRound" });
+      const next = rounds[position + 1];
+      if (next) return step(`\u0414\u0430\u043B\u044C\u0448\u0435: ${introName(places[position + 1], sectorById(next.sector).title)}`, "Play", { type: "nextRound" });
       if (s.view === "debrief") return step("\u0422\u0430\u0431\u043B\u043E: \u0432\u0441\u0435 \u043E\u0447\u043A\u0438 \u043F\u043E \u043A\u0435\u0439\u0441\u0430\u043C", "ChartColumn", { type: "setView", view: "scores" });
       if (s.view === "scores") return null;
       return step("\u0418\u0442\u043E\u0433\u0438 \u0438\u0433\u0440\u044B", "Trophy", { type: "setView", view: "debrief" });
@@ -75421,7 +75536,7 @@ function backStep(s) {
   return null;
 }
 var COMMAND_LABELS = {
-  setMusic: "музыка",
+  setMusic: "\u0444\u043E\u043D\u043E\u0432\u0430\u044F \u043C\u0443\u0437\u044B\u043A\u0430",
   setView: "\u0441\u043C\u0435\u043D\u0430 \u044D\u043A\u0440\u0430\u043D\u0430",
   goToRound: "\u043F\u0435\u0440\u0435\u0445\u043E\u0434 \u043A \u043A\u0435\u0439\u0441\u0443",
   nextRound: "\u043F\u0435\u0440\u0435\u0445\u043E\u0434 \u043A \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u043C\u0443 \u043A\u0435\u0439\u0441\u0443",
@@ -75437,6 +75552,9 @@ var COMMAND_LABELS = {
   finishRound: "\u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u0438\u0435 \u043A\u0435\u0439\u0441\u0430",
   reopenRound: "\u0438\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u043E\u0446\u0435\u043D\u043E\u043A",
   resetProgress: "\u0441\u0431\u0440\u043E\u0441 \u0438\u0433\u0440\u044B",
+  finishSetup: "\u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430 \u0438\u0433\u0440\u044B",
+  sellHidden: "\u0432\u044B\u0434\u0430\u0447\u0430 \u0441\u043A\u0440\u044B\u0442\u043E\u0433\u043E \u0444\u0430\u043A\u0442\u0430",
+  replaceHidden: "\u0443\u0442\u043E\u0447\u043D\u0435\u043D\u0438\u0435 \u0432\u044B\u0434\u0430\u043D\u043D\u043E\u0433\u043E \u0444\u0430\u043A\u0442\u0430",
   autoPlan: "\u043F\u0435\u0440\u0435\u0441\u0431\u043E\u0440\u043A\u0430 \u043F\u043B\u0430\u043D\u0430",
   back: "\u043D\u0430\u0437\u0430\u0434"
 };
@@ -75477,15 +75595,17 @@ var criterion = external_exports.enum(CRITERIA.map((c) => c.id));
 var view = external_exports.enum(["welcome", "board", "rules", "roles", "round", "scores", "debrief", "pause"]);
 var commandSchema = external_exports.discriminatedUnion("type", [
   external_exports.object({ type: external_exports.literal("setTitle"), title: text(120) }),
-  external_exports.object({ type: external_exports.literal("setMusic"), on: external_exports.boolean() }),
   external_exports.object({ type: external_exports.literal("setTeamCount"), count: external_exports.number().int().min(2).max(8) }),
   external_exports.object({ type: external_exports.literal("updateTeam"), teamId: id, name: text(40).optional(), color: external_exports.string().regex(/^#[0-9a-fA-F]{6}$/).optional() }),
   external_exports.object({
     type: external_exports.literal("setSettings"),
     settings: external_exports.object({
-      boardStyle: external_exports.enum(["oval", "square"]),
+      boardStyle: external_exports.literal("oval"),
       soundVolume: external_exports.number().int().min(0).max(100),
       musicVolume: external_exports.number().int().min(0).max(100),
+      hiddenSectors: external_exports.array(sector).max(4).refine((ids) => new Set(ids).size === ids.length, "\u041F\u043E\u043B\u044F \u043D\u0435 \u0434\u043E\u043B\u0436\u043D\u044B \u043F\u043E\u0432\u0442\u043E\u0440\u044F\u0442\u044C\u0441\u044F"),
+      trainingFirstCase: external_exports.boolean(),
+      trainingPrepMinutes: external_exports.number().min(1).max(60),
       casesPerRound: external_exports.number().int().min(1).max(6),
       eventMinutes: external_exports.number().int().min(30).max(600),
       prepMinutes: external_exports.number().min(1).max(30),
@@ -75498,10 +75618,11 @@ var commandSchema = external_exports.discriminatedUnion("type", [
   }),
   external_exports.object({ type: external_exports.literal("addRound"), kind: external_exports.enum(["regular", "final"]) }),
   external_exports.object({ type: external_exports.literal("removeRound"), roundId: id }),
-  external_exports.object({ type: external_exports.literal("updateRound"), roundId: id, sector: sector.optional(), caseId: id.nullable().optional(), withTrap: external_exports.boolean().optional() }),
+  external_exports.object({ type: external_exports.literal("updateRound"), roundId: id, sector: sector.optional(), caseId: id.nullable().optional(), withTrap: external_exports.boolean().optional(), hidden: external_exports.boolean().optional() }),
   external_exports.object({ type: external_exports.literal("moveRound"), roundId: id, dir: external_exports.union([external_exports.literal(-1), external_exports.literal(1)]) }),
   external_exports.object({ type: external_exports.literal("autoPlan") }),
   external_exports.object({ type: external_exports.literal("resetProgress") }),
+  external_exports.object({ type: external_exports.literal("finishSetup") }),
   external_exports.object({ type: external_exports.literal("goToRound"), index: external_exports.number().int().min(0) }),
   external_exports.object({ type: external_exports.literal("showSituation") }),
   external_exports.object({ type: external_exports.literal("startDiscussion") }),
@@ -75513,7 +75634,8 @@ var commandSchema = external_exports.discriminatedUnion("type", [
   external_exports.object({ type: external_exports.literal("closeTrap") }),
   external_exports.object({ type: external_exports.literal("finishDiscussion") }),
   external_exports.object({ type: external_exports.literal("startReport"), teamId: id, seconds: external_exports.number().int().min(5).max(900).optional() }),
-  external_exports.object({ type: external_exports.literal("sellHidden"), teamId: id }),
+  external_exports.object({ type: external_exports.literal("sellHidden"), teamId: id, factIndex: external_exports.number().int().min(0).max(79).optional() }),
+  external_exports.object({ type: external_exports.literal("replaceHidden"), purchaseId: id, factIndex: external_exports.number().int().min(0).max(79) }),
   external_exports.object({ type: external_exports.literal("undoPurchase"), index: external_exports.number().int().min(0) }),
   external_exports.object({ type: external_exports.literal("score"), teamId: id, criterion, value: external_exports.number().int().min(0).max(100).nullable() }),
   external_exports.object({ type: external_exports.literal("penalty"), teamId: id, value: external_exports.number().int().min(0).max(40) }),
@@ -75522,6 +75644,7 @@ var commandSchema = external_exports.discriminatedUnion("type", [
   external_exports.object({ type: external_exports.literal("finishRound") }),
   external_exports.object({ type: external_exports.literal("reopenRound") }),
   external_exports.object({ type: external_exports.literal("nextRound") }),
+  external_exports.object({ type: external_exports.literal("setMusic"), on: external_exports.boolean() }),
   external_exports.object({ type: external_exports.literal("setView"), view, slide: external_exports.number().int().min(0).max(50).optional() }),
   // flow: the big button, ← through the rules, «Отменить» (shared/flow.ts, server/index.ts)
   external_exports.object({ type: external_exports.literal("advance"), key: external_exports.string().max(300).optional() }),
@@ -75540,7 +75663,7 @@ var TRAPS = [
   { id: "radio", group: "communication", icon: "MicOff", title: "\u0410\u0432\u0430\u0440\u0438\u044F \u043D\u0430 \u0441\u0432\u044F\u0437\u0438", text: "\u0412 \u0442\u0435\u0447\u0435\u043D\u0438\u0435 3 \u043C\u0438\u043D\u0443\u0442 \u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C \u043C\u043E\u0436\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E \u043A\u0430\u043F\u0438\u0442\u0430\u043D \u043A\u043E\u043C\u0430\u043D\u0434\u044B." },
   { id: "call", group: "communication", icon: "PhoneCall", title: "\u0421\u0440\u043E\u0447\u043D\u044B\u0439 \u0437\u0432\u043E\u043D\u043E\u043A \u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u0430", text: "\u041E\u0434\u0438\u043D \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A \u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E \u043F\u043E\u043A\u0438\u0434\u0430\u0435\u0442 \u043A\u043E\u043C\u0430\u043D\u0434\u0443 \u0438 \u043D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0443\u0447\u0430\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C \u0432 \u043E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0438 5 \u043C\u0438\u043D\u0443\u0442." },
   { id: "meeting", group: "communication", icon: "Timer", title: "\u0421\u043E\u0432\u0435\u0449\u0430\u043D\u0438\u0435 \u0447\u0435\u0440\u0435\u0437 \u043C\u0438\u043D\u0443\u0442\u0443", text: "\u0412\u0440\u0435\u043C\u044F \u043D\u0430 \u043E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435 \u0441\u043E\u043A\u0440\u0430\u0449\u0430\u0435\u0442\u0441\u044F \u0432\u0434\u0432\u043E\u0435.", timeFactor: 0.5 },
-  { id: "audit", group: "production", icon: "Siren", title: "\u0412\u043D\u0435\u043F\u043B\u0430\u043D\u043E\u0432\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430", text: "\u041A\u043E\u043C\u0430\u043D\u0434\u0430 \u0434\u043E\u043B\u0436\u043D\u0430 \u043E\u0431\u044A\u044F\u0441\u043D\u0438\u0442\u044C \u0441\u0432\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u0437\u0430 30 \u0441\u0435\u043A\u0443\u043D\u0434 \u0432\u043C\u0435\u0441\u0442\u043E 2 \u043C\u0438\u043D\u0443\u0442.", hostHint: "\u041D\u0430 \u0434\u043E\u043A\u043B\u0430\u0434\u0435 \u043F\u043E\u0441\u0442\u0430\u0432\u044C\u0442\u0435 \u0442\u0430\u0439\u043C\u0435\u0440 30 \u0441\u0435\u043A\u0443\u043D\u0434." },
+  { id: "audit", group: "production", icon: "Siren", title: "\u0412\u043D\u0435\u043F\u043B\u0430\u043D\u043E\u0432\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430", text: "\u041A\u043E\u043C\u0430\u043D\u0434\u0430 \u0434\u043E\u043B\u0436\u043D\u0430 \u043E\u0431\u044A\u044F\u0441\u043D\u0438\u0442\u044C \u0441\u0432\u043E\u0451 \u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u0437\u0430 30 \u0441\u0435\u043A\u0443\u043D\u0434 \u0432\u043C\u0435\u0441\u0442\u043E \u043E\u0431\u044B\u0447\u043D\u043E\u0433\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0438 \u0434\u043E\u043A\u043B\u0430\u0434\u0430.", hostHint: "\u041D\u0430 \u0434\u043E\u043A\u043B\u0430\u0434\u0435 \u043F\u043E\u0441\u0442\u0430\u0432\u044C\u0442\u0435 \u0442\u0430\u0439\u043C\u0435\u0440 30 \u0441\u0435\u043A\u0443\u043D\u0434." },
   { id: "breakdown", group: "production", icon: "Construction", title: "\u041A\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043F\u043E\u043B\u043E\u043C\u043A\u0430", text: "\u041E\u0434\u0438\u043D \u0438\u0437 \u0444\u0430\u043A\u0442\u043E\u0432 \u043A\u0435\u0439\u0441\u0430 \u043E\u0431\u044A\u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u043D\u044B\u043C. \u041A\u043E\u043C\u0430\u043D\u0434\u0430 \u0434\u043E\u043B\u0436\u043D\u0430 \u043F\u0435\u0440\u0435\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0432\u044B\u0432\u043E\u0434\u044B.", hostHint: "\u041D\u0430\u0437\u043E\u0432\u0438\u0442\u0435 \u043E\u0434\u0438\u043D \u0444\u0430\u043A\u0442 \u0438\u0437 \u043A\u0430\u0440\u0442\u043E\u0447\u043A\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0442\u0435\u043F\u0435\u0440\u044C \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u0435\u043D." },
   { id: "new-data", group: "production", icon: "ChartColumn", title: "\u041D\u043E\u0432\u044B\u0435 \u0434\u0430\u043D\u043D\u044B\u0435", text: "\u0412\u0435\u0434\u0443\u0449\u0438\u0439 \u0432\u044B\u0434\u0430\u0451\u0442 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0444\u0430\u043A\u0442, \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u043C\u043E\u0436\u0435\u0442 \u0438\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u043F\u0435\u0440\u0432\u043E\u043D\u0430\u0447\u0430\u043B\u044C\u043D\u0443\u044E \u0433\u0438\u043F\u043E\u0442\u0435\u0437\u0443.", hostHint: "\u0412\u044B\u0434\u0430\u0439\u0442\u0435 \u043A\u043E\u043C\u0430\u043D\u0434\u0430\u043C \u043E\u0434\u0438\u043D \u0441\u043A\u0440\u044B\u0442\u044B\u0439 \u0444\u0430\u043A\u0442 \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E." },
   { id: "season", group: "production", icon: "TrendingUp", title: "\u041F\u0438\u043A\u043E\u0432\u044B\u0439 \u0441\u0435\u0437\u043E\u043D", text: "\u0414\u043B\u044F \u0440\u0435\u0448\u0435\u043D\u0438\u044F \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u043E \u043D\u0430 25% \u043C\u0435\u043D\u044C\u0448\u0435 \u0432\u0440\u0435\u043C\u0435\u043D\u0438.", timeFactor: 0.75 },
@@ -76788,7 +76911,27 @@ var Store = class {
   loadGame(library2) {
     const saved = this.readJson("game.json");
     if (saved?.version === 2) {
-      saved.settings = { ...DEFAULT_SETTINGS, ...saved.settings };
+      saved.settings = {
+        ...DEFAULT_SETTINGS,
+        ...saved.settings,
+        boardStyle: "oval",
+        hiddenSectors: saved.settings.hiddenSectors ?? [],
+        trainingFirstCase: saved.settings.trainingFirstCase ?? saved.rounds.every((r) => r.phase === "ready")
+      };
+      saved.music ??= saved.view === "welcome" || saved.view === "pause";
+      saved.setupRequired ??= false;
+      for (const round of saved.rounds) {
+        if (round.training === void 0 && (round.phase !== "ready" || round.purchases.length || Object.keys(round.results).length)) round.training = false;
+        const card = library2.cases.find((c) => c.id === round.caseId);
+        const pool = card ? [...card.hidden, ...card.hiddenExtra] : [];
+        round.purchases.forEach((purchase, index) => {
+          purchase.id ??= `${round.id}:fact:${index}`;
+          if (purchase.factIndex === void 0) {
+            const match = pool.indexOf(purchase.text);
+            if (match >= 0) purchase.factIndex = match;
+          }
+        });
+      }
       saved.teams.forEach((t, i) => {
         if (!TEAM_COLORS.includes(t.color)) t.color = TEAM_COLORS[i % TEAM_COLORS.length];
       });
@@ -77029,13 +77172,14 @@ app.get("/api/results.csv", (_req, res) => {
   };
   const rows = [];
   const table = scoreTable(game);
-  rows.push(["\u041C\u0435\u0441\u0442\u043E", "\u041A\u043E\u043C\u0430\u043D\u0434\u0430", ...game.rounds.map((r, i) => r.kind === "final" ? "\u0424\u0438\u043D\u0430\u043B" : `\u0420\u0430\u0443\u043D\u0434 ${i + 1}`), "\u0418\u0442\u043E\u0433\u043E"]);
+  const visible = activeRounds(game);
+  rows.push(["\u041C\u0435\u0441\u0442\u043E", "\u041A\u043E\u043C\u0430\u043D\u0434\u0430", ...visible.map((r, i) => `${r.kind === "final" ? "\u0424\u0438\u043D\u0430\u043B" : `\u041A\u0435\u0439\u0441 ${i + 1}`}${isTrainingRound(game, r) ? " (\u0442\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0430, \u0432\u043D\u0435 \u0437\u0430\u0447\u0451\u0442\u0430)" : ""}`), "\u0418\u0442\u043E\u0433\u043E"]);
   for (const row of [...table].sort((a, b) => a.place - b.place)) {
     rows.push([row.place, game.teams.find((t) => t.id === row.teamId)?.name, ...row.perRound.map((v) => v ?? ""), row.total]);
   }
   rows.push([]);
   rows.push(["\u0420\u0430\u0443\u043D\u0434", "\u0421\u0435\u043A\u0442\u043E\u0440", "\u041A\u043E\u043C\u0430\u043D\u0434\u0430", ...CRITERIA.map((c) => c.title), "\u0421\u043A\u0440\u044B\u0442\u044B\u0445 \u0444\u0430\u043A\u0442\u043E\u0432", "\u0428\u0442\u0440\u0430\u0444"]);
-  game.rounds.forEach((r, i) => {
+  visible.forEach((r, i) => {
     for (const team of game.teams) {
       const result = r.results[team.id];
       const bought = r.purchases.filter((p) => p.teamId === team.id).length;
@@ -77098,3 +77242,317 @@ function shutdown() {
 }
 process.on("SIGTERM", shutdown);
 process.on("SIGINT", shutdown);
+/*! Bundled license information:
+
+depd/index.js:
+  (*!
+   * depd
+   * Copyright(c) 2014-2018 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+statuses/index.js:
+  (*!
+   * statuses
+   * Copyright(c) 2014 Jonathan Ong
+   * Copyright(c) 2016 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+toidentifier/index.js:
+  (*!
+   * toidentifier
+   * Copyright(c) 2016 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+http-errors/index.js:
+  (*!
+   * http-errors
+   * Copyright(c) 2014 Jonathan Ong
+   * Copyright(c) 2016 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+bytes/index.js:
+  (*!
+   * bytes
+   * Copyright(c) 2012-2014 TJ Holowaychuk
+   * Copyright(c) 2015 Jed Watson
+   * MIT Licensed
+   *)
+
+unpipe/index.js:
+  (*!
+   * unpipe
+   * Copyright(c) 2015 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+raw-body/index.js:
+  (*!
+   * raw-body
+   * Copyright(c) 2013-2014 Jonathan Ong
+   * Copyright(c) 2014-2022 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+ee-first/index.js:
+  (*!
+   * ee-first
+   * Copyright(c) 2014 Jonathan Ong
+   * MIT Licensed
+   *)
+
+on-finished/index.js:
+  (*!
+   * on-finished
+   * Copyright(c) 2013 Jonathan Ong
+   * Copyright(c) 2014 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+content-type/dist/index.js:
+  (*!
+   * content-type
+   * Copyright(c) 2015 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+mime-db/index.js:
+mime-db/index.js:
+mime-db/index.js:
+  (*!
+   * mime-db
+   * Copyright(c) 2014 Jonathan Ong
+   * Copyright(c) 2015-2022 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+mime-types/index.js:
+mime-types/index.js:
+mime-types/index.js:
+  (*!
+   * mime-types
+   * Copyright(c) 2014 Jonathan Ong
+   * Copyright(c) 2015 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+media-typer/index.js:
+  (*!
+   * media-typer
+   * Copyright(c) 2014-2017 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+type-is/index.js:
+  (*!
+   * type-is
+   * Copyright(c) 2014 Jonathan Ong
+   * Copyright(c) 2014-2015 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+body-parser/lib/read.js:
+body-parser/lib/types/raw.js:
+body-parser/lib/types/text.js:
+body-parser/index.js:
+  (*!
+   * body-parser
+   * Copyright(c) 2014-2015 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+body-parser/lib/types/json.js:
+body-parser/lib/types/urlencoded.js:
+  (*!
+   * body-parser
+   * Copyright(c) 2014 Jonathan Ong
+   * Copyright(c) 2014-2015 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+encodeurl/index.js:
+  (*!
+   * encodeurl
+   * Copyright(c) 2016 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+escape-html/index.js:
+  (*!
+   * escape-html
+   * Copyright(c) 2012-2013 TJ Holowaychuk
+   * Copyright(c) 2015 Andreas Lubbe
+   * Copyright(c) 2015 Tiancheng "Timothy" Gu
+   * MIT Licensed
+   *)
+
+parseurl/index.js:
+  (*!
+   * parseurl
+   * Copyright(c) 2014 Jonathan Ong
+   * Copyright(c) 2014-2017 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+finalhandler/index.js:
+  (*!
+   * finalhandler
+   * Copyright(c) 2014-2022 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+express/lib/view.js:
+express/lib/application.js:
+express/lib/request.js:
+express/lib/express.js:
+express/index.js:
+  (*!
+   * express
+   * Copyright(c) 2009-2013 TJ Holowaychuk
+   * Copyright(c) 2013 Roman Shtylman
+   * Copyright(c) 2014-2015 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+etag/index.js:
+  (*!
+   * etag
+   * Copyright(c) 2014-2016 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+forwarded/index.js:
+  (*!
+   * forwarded
+   * Copyright(c) 2014-2017 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+proxy-addr/index.js:
+  (*!
+   * proxy-addr
+   * Copyright(c) 2014-2016 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+express/lib/utils.js:
+express/lib/response.js:
+  (*!
+   * express
+   * Copyright(c) 2009-2013 TJ Holowaychuk
+   * Copyright(c) 2014-2015 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+router/lib/layer.js:
+router/lib/route.js:
+router/index.js:
+  (*!
+   * router
+   * Copyright(c) 2013 Roman Shtylman
+   * Copyright(c) 2014-2022 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+negotiator/lib/accept.js:
+  (*!
+   * negotiator
+   * Copyright(c) 2026 Blake Embrey
+   * MIT Licensed
+   *)
+
+negotiator/index.js:
+negotiator/index.js:
+negotiator/index.js:
+  (*!
+   * negotiator
+   * Copyright(c) 2012 Federico Romero
+   * Copyright(c) 2012-2014 Isaac Z. Schlueter
+   * Copyright(c) 2015 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+accepts/index.js:
+accepts/index.js:
+accepts/index.js:
+  (*!
+   * accepts
+   * Copyright(c) 2014 Jonathan Ong
+   * Copyright(c) 2015 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+fresh/index.js:
+  (*!
+   * fresh
+   * Copyright(c) 2012 TJ Holowaychuk
+   * Copyright(c) 2016-2017 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+range-parser/index.js:
+  (*!
+   * range-parser
+   * Copyright(c) 2012-2014 TJ Holowaychuk
+   * Copyright(c) 2015-2016 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+content-disposition/dist/index.js:
+  (*!
+   * content-disposition
+   * Copyright(c) 2014-2017 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+cookie/index.js:
+  (*!
+   * cookie
+   * Copyright(c) 2012-2014 Roman Shtylman
+   * Copyright(c) 2015 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+send/index.js:
+  (*!
+   * send
+   * Copyright(c) 2012 TJ Holowaychuk
+   * Copyright(c) 2014-2022 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+vary/index.js:
+  (*!
+   * vary
+   * Copyright(c) 2014-2017 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+serve-static/index.js:
+  (*!
+   * serve-static
+   * Copyright(c) 2010 Sencha Inc.
+   * Copyright(c) 2011 TJ Holowaychuk
+   * Copyright(c) 2014-2016 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
+engine.io/build/contrib/base64id.js:
+socket.io/dist/contrib/base64id.js:
+  (*!
+   * base64id v0.1.0
+   *)
+
+engine.io/build/parser-v3/utf8.js:
+  (*! https://mths.be/utf8js v2.1.2 by @mathias *)
+
+object-assign/index.js:
+  (*
+  object-assign
+  (c) Sindre Sorhus
+  @license MIT
+  *)
+*/

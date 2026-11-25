@@ -1,0 +1,30 @@
+/* Preserved presentation and music styles from the portable v6 release. */
+
+.scaled-inner>.stage{width:100%;height:100%}
+.scaled-inner .stage-board,.scaled-inner .stage-side{translate:var(--dx,0px) var(--dy,0px)}
+.splash{position:absolute;inset:0;display:grid;grid-template-columns:1010px 1fr}
+.splash .welcome{position:relative;z-index:1;box-sizing:border-box;height:100%;padding:92px 0 70px 104px;animation:splash-rise .9s cubic-bezier(.2,.8,.2,1) both}
+.splash .welcome h1{font-size:138px;margin-top:30px}
+.splash .welcome h1 span{font-size:68px;margin-top:18px}
+.splash .tagline{font-size:42px;margin-top:32px}
+.splash .motto span{font-size:22px;padding:15px 26px}
+.splash .welcome-facts{max-width:780px}
+.splash .welcome-teams{grid-template-columns:repeat(2,minmax(0,380px))}
+.splash .welcome-teams .kicker{grid-column:1/-1}
+.splash.is-pause .welcome h1{font-size:146px}
+.splash.is-pause .welcome-team{padding-right:26px}
+.pause-pts{margin-left:auto;font:800 30px/1 var(--font-display);color:var(--gold);font-style:normal}
+.splash-photos{display:grid;grid-template-columns:repeat(var(--sector-count,3),1fr);gap:16px;margin:-60px 30px -60px 0;transform:skewX(-9deg)}
+.splash-photo{position:relative;overflow:hidden;border-radius:22px;box-shadow:0 30px 70px #00000073;animation:splash-in 1s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(.25s + var(--i)*.13s)}
+.splash-photo i{position:absolute;inset:0 -40%;background:center/cover no-repeat;transform:skewX(9deg)}
+.splash-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,var(--c) 0%,color-mix(in srgb,var(--c) 45%,transparent) 38%,#080d1926 75%)}
+.splash-photo span{position:absolute;z-index:1;left:50%;bottom:150px;display:flex;align-items:center;gap:18px;white-space:nowrap;transform:skewX(9deg) translateX(-50%);writing-mode:vertical-rl;rotate:180deg;font:800 44px/1 var(--font-display);text-transform:uppercase;letter-spacing:.06em;color:#fff;text-shadow:0 3px 14px #00000059}
+.splash-photo span img{width:68px;height:68px;rotate:90deg;filter:drop-shadow(0 4px 10px #0006)}
+@keyframes splash-rise{from{opacity:0;transform:translateY(30px)}}
+@keyframes splash-in{from{opacity:0;transform:translateY(80px)}}
+.rs-case.rs-music{--c:#15803d}
+.rs-case.rs-music.is-on{background:var(--c);border-color:var(--c);color:#fff}
+.music-btn.is-on{background:#e8f7f0;border-color:#16a34a;color:#15803d}
+.music-vol{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:#5b6478;white-space:nowrap}
+.music-vol input{width:90px;accent-color:#16a34a;cursor:pointer}
+.music-vol small{min-width:30px;font-size:12px}

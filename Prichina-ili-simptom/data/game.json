@@ -1,33 +1,38 @@
 {
   "version": 2,
-  "id": "41e42441-a457-4066-9f57-7963573e41fe",
+  "id": "6e36f628-84b7-497a-9548-a55d41b47ca7",
   "title": "Причина или симптом?",
   "teams": [
     {
       "id": "8d6841f6-c612-4d61-80fe-5b67fb00e7db",
-      "name": "Домодедово",
+      "name": "Команда 1",
       "color": "#E5484D"
     },
     {
       "id": "521e2aa0-91f1-487e-9a68-17203c65a39b",
-      "name": "Аллигатор",
+      "name": "Команда 2",
       "color": "#3E63DD"
     },
     {
       "id": "7d093e00-2a5d-411f-81bc-91e0378e9cdc",
-      "name": "Весёлые Ребята",
+      "name": "Команда 3",
       "color": "#30A46C"
     },
     {
       "id": "771bc837-7d7b-4563-84d4-b3e91d167ef8",
-      "name": "Рисков Нет",
+      "name": "Команда 4",
       "color": "#FFB224"
     }
   ],
   "settings": {
     "boardStyle": "oval",
     "soundVolume": 100,
-    "musicVolume": 0,
+    "musicVolume": 5,
+    "hiddenSectors": [
+      "supply"
+    ],
+    "trainingFirstCase": true,
+    "trainingPrepMinutes": 20,
     "casesPerRound": 3,
     "eventMinutes": 180,
     "prepMinutes": 10,
@@ -39,107 +44,10 @@
   },
   "rounds": [
     {
-      "id": "437402e1-8f9f-49cb-8b05-6524fa1e7991",
+      "id": "2756b3df-7715-4861-85e8-77c067648eba",
       "kind": "regular",
-      "sector": "supply",
-      "caseId": "po-02",
-      "withTrap": true,
-      "phase": "done",
-      "trap": {
-        "delaySec": 10,
-        "cardId": "call",
-        "firedAt": 1794481051653,
-        "closedAt": 1794481053283
-      },
-      "purchases": [],
-      "results": {},
-      "showStatements": false,
-      "revealCause": true,
-      "reporterId": null,
-      "reported": [
-        "521e2aa0-91f1-487e-9a68-17203c65a39b",
-        "7d093e00-2a5d-411f-81bc-91e0378e9cdc",
-        "771bc837-7d7b-4563-84d4-b3e91d167ef8",
-        "8d6841f6-c612-4d61-80fe-5b67fb00e7db"
-      ]
-    },
-    {
-      "id": "6558a80a-e332-414e-a9e0-02002ec72c42",
-      "kind": "regular",
-      "sector": "supply",
-      "caseId": "po-03",
-      "withTrap": true,
-      "phase": "done",
-      "trap": {
-        "delaySec": 11,
-        "cardId": "meeting-loop",
-        "firedAt": 1794482416478,
-        "closedAt": 1794482420387
-      },
-      "purchases": [
-        {
-          "teamId": "7d093e00-2a5d-411f-81bc-91e0378e9cdc",
-          "text": "Большая часть запасов относится к медленно оборачиваемым позициям.",
-          "at": 1794482583858
-        }
-      ],
-      "results": {
-        "7d093e00-2a5d-411f-81bc-91e0378e9cdc": {
-          "scores": {
-            "problem": 5,
-            "cause": 10,
-            "actions": 10,
-            "clarity": 10,
-            "facts": 5
-          },
-          "penalty": 0
-        },
-        "8d6841f6-c612-4d61-80fe-5b67fb00e7db": {
-          "scores": {
-            "problem": 0,
-            "cause": 0,
-            "actions": 5,
-            "clarity": 10,
-            "facts": 5
-          },
-          "penalty": 0
-        },
-        "521e2aa0-91f1-487e-9a68-17203c65a39b": {
-          "scores": {
-            "problem": 3,
-            "cause": 0,
-            "actions": 10,
-            "clarity": 10,
-            "facts": 5
-          },
-          "penalty": 0
-        },
-        "771bc837-7d7b-4563-84d4-b3e91d167ef8": {
-          "scores": {
-            "problem": 4,
-            "cause": 0,
-            "actions": 10,
-            "clarity": 10,
-            "facts": 5
-          },
-          "penalty": 0
-        }
-      },
-      "showStatements": false,
-      "revealCause": true,
-      "reporterId": null,
-      "reported": [
-        "8d6841f6-c612-4d61-80fe-5b67fb00e7db",
-        "521e2aa0-91f1-487e-9a68-17203c65a39b",
-        "7d093e00-2a5d-411f-81bc-91e0378e9cdc",
-        "771bc837-7d7b-4563-84d4-b3e91d167ef8"
-      ]
-    },
-    {
-      "id": "c21992d6-ff0b-4f64-9bb4-4bd298674102",
-      "kind": "regular",
-      "sector": "supply",
-      "caseId": "po-01",
+      "sector": "production",
+      "caseId": "pr-04",
       "withTrap": true,
       "phase": "ready",
       "trap": null,
@@ -151,151 +59,7 @@
       "reported": []
     },
     {
-      "id": "9fe0ef1b-4124-4021-bd1e-bc23130c2ad2",
-      "kind": "regular",
-      "sector": "production",
-      "caseId": "pr-02",
-      "withTrap": true,
-      "phase": "done",
-      "trap": {
-        "delaySec": 11,
-        "cardId": "excel",
-        "firedAt": 1794483979335,
-        "closedAt": 1794484018736
-      },
-      "purchases": [
-        {
-          "teamId": "7d093e00-2a5d-411f-81bc-91e0378e9cdc",
-          "text": "Большая часть продукции ожидает следующей операции.",
-          "at": 1794484169977
-        }
-      ],
-      "results": {
-        "7d093e00-2a5d-411f-81bc-91e0378e9cdc": {
-          "scores": {
-            "facts": 5,
-            "clarity": 10,
-            "actions": 10,
-            "cause": 10,
-            "problem": 5
-          },
-          "penalty": 0
-        },
-        "8d6841f6-c612-4d61-80fe-5b67fb00e7db": {
-          "scores": {
-            "problem": 5,
-            "cause": 10,
-            "actions": 10,
-            "clarity": 10,
-            "facts": 5
-          },
-          "penalty": 0
-        },
-        "521e2aa0-91f1-487e-9a68-17203c65a39b": {
-          "scores": {
-            "problem": 5,
-            "actions": 10,
-            "cause": 10,
-            "clarity": 10,
-            "facts": 5
-          },
-          "penalty": 0
-        },
-        "771bc837-7d7b-4563-84d4-b3e91d167ef8": {
-          "scores": {
-            "facts": 5,
-            "clarity": 10,
-            "actions": 10,
-            "cause": 10,
-            "problem": 5
-          },
-          "penalty": 0
-        }
-      },
-      "showStatements": false,
-      "revealCause": true,
-      "reporterId": null,
-      "reported": [
-        "771bc837-7d7b-4563-84d4-b3e91d167ef8",
-        "8d6841f6-c612-4d61-80fe-5b67fb00e7db",
-        "521e2aa0-91f1-487e-9a68-17203c65a39b",
-        "7d093e00-2a5d-411f-81bc-91e0378e9cdc"
-      ]
-    },
-    {
-      "id": "53d9c536-7dcd-411b-999d-9724ba85ce72",
-      "kind": "regular",
-      "sector": "production",
-      "caseId": "pr-01",
-      "withTrap": true,
-      "phase": "done",
-      "trap": {
-        "delaySec": 12,
-        "cardId": "translator",
-        "firedAt": 1794487027805,
-        "closedAt": 1794487069409
-      },
-      "purchases": [
-        {
-          "teamId": "7d093e00-2a5d-411f-81bc-91e0378e9cdc",
-          "text": "В первые две недели после внедрения показатели действительно улучшились.",
-          "at": 1794487395147
-        }
-      ],
-      "results": {
-        "8d6841f6-c612-4d61-80fe-5b67fb00e7db": {
-          "scores": {
-            "facts": 5,
-            "clarity": 10,
-            "actions": 10,
-            "cause": 10,
-            "problem": 5
-          },
-          "penalty": 0
-        },
-        "521e2aa0-91f1-487e-9a68-17203c65a39b": {
-          "scores": {
-            "facts": 5,
-            "clarity": 10,
-            "cause": 10,
-            "actions": 10,
-            "problem": 5
-          },
-          "penalty": 0
-        },
-        "7d093e00-2a5d-411f-81bc-91e0378e9cdc": {
-          "scores": {
-            "facts": 5,
-            "clarity": 10,
-            "cause": 10,
-            "actions": 10,
-            "problem": 5
-          },
-          "penalty": 0
-        },
-        "771bc837-7d7b-4563-84d4-b3e91d167ef8": {
-          "scores": {
-            "facts": 5,
-            "clarity": 10,
-            "cause": 10,
-            "actions": 10,
-            "problem": 5
-          },
-          "penalty": 0
-        }
-      },
-      "showStatements": false,
-      "revealCause": true,
-      "reporterId": null,
-      "reported": [
-        "521e2aa0-91f1-487e-9a68-17203c65a39b",
-        "8d6841f6-c612-4d61-80fe-5b67fb00e7db",
-        "7d093e00-2a5d-411f-81bc-91e0378e9cdc",
-        "771bc837-7d7b-4563-84d4-b3e91d167ef8"
-      ]
-    },
-    {
-      "id": "df6957b6-399c-4292-9cc1-f4693045b5f8",
+      "id": "381b3d42-ef69-4189-b973-2a8f3a4bb397",
       "kind": "regular",
       "sector": "production",
       "caseId": "pr-03",
@@ -310,79 +74,37 @@
       "reported": []
     },
     {
-      "id": "32597532-6ac9-4e51-9f78-4883e6d4e9c6",
+      "id": "a09e9707-83b1-4356-8902-fa90c6aa5ce8",
+      "kind": "regular",
+      "sector": "production",
+      "caseId": "pr-02",
+      "withTrap": true,
+      "phase": "ready",
+      "trap": null,
+      "purchases": [],
+      "results": {},
+      "showStatements": false,
+      "revealCause": false,
+      "reporterId": null,
+      "reported": []
+    },
+    {
+      "id": "7f8a22ba-e4ba-406d-afb0-917cc466193e",
       "kind": "regular",
       "sector": "quality",
       "caseId": "ka-03",
       "withTrap": true,
-      "phase": "done",
-      "trap": {
-        "delaySec": 10,
-        "cardId": "director",
-        "firedAt": 1794488664416,
-        "closedAt": 1794488682267
-      },
-      "purchases": [
-        {
-          "teamId": "7d093e00-2a5d-411f-81bc-91e0378e9cdc",
-          "text": "Многие мероприятия ограничиваются дополнительным инструктажем.",
-          "at": 1794488993449
-        }
-      ],
-      "results": {
-        "7d093e00-2a5d-411f-81bc-91e0378e9cdc": {
-          "scores": {
-            "facts": 4,
-            "clarity": 10,
-            "actions": 10,
-            "cause": 10,
-            "problem": 5
-          },
-          "penalty": 10
-        },
-        "8d6841f6-c612-4d61-80fe-5b67fb00e7db": {
-          "scores": {
-            "problem": 5,
-            "cause": 10,
-            "actions": 10,
-            "clarity": 10,
-            "facts": 5
-          },
-          "penalty": 0
-        },
-        "771bc837-7d7b-4563-84d4-b3e91d167ef8": {
-          "scores": {
-            "problem": 5,
-            "cause": 10,
-            "actions": 10,
-            "clarity": 10,
-            "facts": 5
-          },
-          "penalty": 0
-        },
-        "521e2aa0-91f1-487e-9a68-17203c65a39b": {
-          "scores": {
-            "cause": 10,
-            "problem": 5,
-            "actions": 10,
-            "clarity": 10,
-            "facts": 4
-          },
-          "penalty": 0
-        }
-      },
+      "phase": "ready",
+      "trap": null,
+      "purchases": [],
+      "results": {},
       "showStatements": false,
-      "revealCause": true,
+      "revealCause": false,
       "reporterId": null,
-      "reported": [
-        "7d093e00-2a5d-411f-81bc-91e0378e9cdc",
-        "771bc837-7d7b-4563-84d4-b3e91d167ef8",
-        "8d6841f6-c612-4d61-80fe-5b67fb00e7db",
-        "521e2aa0-91f1-487e-9a68-17203c65a39b"
-      ]
+      "reported": []
     },
     {
-      "id": "ca72d287-822a-46e1-86a0-bb2b8353cf7e",
+      "id": "5e65a0d5-dd55-4696-bf23-9619eb2a4d9b",
       "kind": "regular",
       "sector": "quality",
       "caseId": "ka-02",
@@ -397,7 +119,7 @@
       "reported": []
     },
     {
-      "id": "795fc0e0-ba01-4c72-8ed4-52fde6764ed3",
+      "id": "37eea2c8-0582-484d-bcd7-52ec860e2488",
       "kind": "regular",
       "sector": "quality",
       "caseId": "ka-01",
@@ -412,88 +134,7 @@
       "reported": []
     },
     {
-      "id": "9188446e-a2c5-4e98-8781-59a556bcb151",
-      "kind": "regular",
-      "sector": "people",
-      "caseId": "pe-01",
-      "withTrap": true,
-      "phase": "done",
-      "trap": {
-        "delaySec": 15,
-        "cardId": "silent",
-        "firedAt": 1794490256453,
-        "closedAt": 1794490276484
-      },
-      "purchases": [],
-      "results": {
-        "521e2aa0-91f1-487e-9a68-17203c65a39b": {
-          "scores": {
-            "facts": 5,
-            "clarity": 10,
-            "actions": 10,
-            "cause": 10,
-            "problem": 5
-          },
-          "penalty": 0
-        },
-        "7d093e00-2a5d-411f-81bc-91e0378e9cdc": {
-          "scores": {
-            "facts": 4,
-            "clarity": 10,
-            "actions": 10,
-            "cause": 10,
-            "problem": 5
-          },
-          "penalty": 0
-        },
-        "771bc837-7d7b-4563-84d4-b3e91d167ef8": {
-          "scores": {
-            "facts": 4,
-            "clarity": 10,
-            "actions": 10,
-            "cause": 10,
-            "problem": 5
-          },
-          "penalty": 0
-        },
-        "8d6841f6-c612-4d61-80fe-5b67fb00e7db": {
-          "scores": {
-            "problem": 5,
-            "cause": 10,
-            "actions": 10,
-            "clarity": 10,
-            "facts": 4
-          },
-          "penalty": 0
-        }
-      },
-      "showStatements": false,
-      "revealCause": true,
-      "reporterId": null,
-      "reported": [
-        "521e2aa0-91f1-487e-9a68-17203c65a39b",
-        "7d093e00-2a5d-411f-81bc-91e0378e9cdc",
-        "771bc837-7d7b-4563-84d4-b3e91d167ef8",
-        "8d6841f6-c612-4d61-80fe-5b67fb00e7db"
-      ]
-    },
-    {
-      "id": "43eb62de-fd73-4dc3-b8a1-e136a918b418",
-      "kind": "regular",
-      "sector": "people",
-      "caseId": "pe-02",
-      "withTrap": true,
-      "phase": "ready",
-      "trap": null,
-      "purchases": [],
-      "results": {},
-      "showStatements": false,
-      "revealCause": false,
-      "reporterId": null,
-      "reported": []
-    },
-    {
-      "id": "1c6ebb3a-c087-4fc5-9582-c800fc26b02e",
+      "id": "f1992205-1f3b-4dda-abc4-c42f300557fe",
       "kind": "regular",
       "sector": "people",
       "caseId": "pe-03",
@@ -508,11 +149,71 @@
       "reported": []
     },
     {
-      "id": "7a8b1515-9cb7-42be-b7d2-5a1dd6be586c",
-      "kind": "final",
-      "sector": "production",
-      "caseId": null,
-      "withTrap": false,
+      "id": "7d52d0af-a075-48c5-9b4a-1f1ac6a5bfca",
+      "kind": "regular",
+      "sector": "people",
+      "caseId": "pe-02",
+      "withTrap": true,
+      "phase": "ready",
+      "trap": null,
+      "purchases": [],
+      "results": {},
+      "showStatements": false,
+      "revealCause": false,
+      "reporterId": null,
+      "reported": []
+    },
+    {
+      "id": "befb67b0-85ed-4241-bdd1-1d0bc5ac5ba7",
+      "kind": "regular",
+      "sector": "people",
+      "caseId": "pe-01",
+      "withTrap": true,
+      "phase": "ready",
+      "trap": null,
+      "purchases": [],
+      "results": {},
+      "showStatements": false,
+      "revealCause": false,
+      "reporterId": null,
+      "reported": []
+    },
+    {
+      "id": "0bef12db-6d02-400d-94db-7e4fc5a5d345",
+      "kind": "regular",
+      "sector": "supply",
+      "caseId": "po-03",
+      "withTrap": true,
+      "phase": "ready",
+      "trap": null,
+      "purchases": [],
+      "results": {},
+      "showStatements": false,
+      "revealCause": false,
+      "reporterId": null,
+      "reported": []
+    },
+    {
+      "id": "12e419f4-2e7e-46db-968e-d9f362182d02",
+      "kind": "regular",
+      "sector": "supply",
+      "caseId": "po-02",
+      "withTrap": true,
+      "phase": "ready",
+      "trap": null,
+      "purchases": [],
+      "results": {},
+      "showStatements": false,
+      "revealCause": false,
+      "reporterId": null,
+      "reported": []
+    },
+    {
+      "id": "3f256cb2-f3b6-4fe1-abfa-646aac6c6883",
+      "kind": "regular",
+      "sector": "supply",
+      "caseId": "po-01",
+      "withTrap": true,
       "phase": "ready",
       "trap": null,
       "purchases": [],
@@ -523,26 +224,17 @@
       "reported": []
     }
   ],
-  "current": 9,
-  "view": "scores",
-  "slide": 6,
+  "current": -1,
+  "view": "board",
+  "music": true,
+  "slide": 0,
   "timer": {
-    "label": "Доклад: Домодедово",
-    "durationMs": 180000,
-    "elapsedMs": 102869,
+    "label": "Обсуждение",
+    "durationMs": 1200000,
+    "elapsedMs": 0,
     "startedAt": null
   },
-  "usedTraps": [
-    "call",
-    "meeting-loop",
-    "excel",
-    "no-data",
-    "new-data",
-    "translator",
-    "director",
-    "stickers",
-    "silent"
-  ],
+  "usedTraps": [],
   "introAt": null,
-  "music": false
+  "setupRequired": false
 }

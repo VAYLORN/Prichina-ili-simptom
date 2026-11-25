@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-25",
+  "testsPassed": 37,
+  "typescript": "passed",
+  "portableBuild": "passed",
+  "bundledServerTests": "passed",
+  "browser": [
+    "reset opens three-step wizard",
+    "reset restores default team names",
+    "all default auto-trap checkboxes selected",
+    "case selection retained",
+    "manual trap in unchecked ready case",
+    "fact preview only on operator screen",
+    "chosen fact saved",
+    "replacement survives reload and costs once",
+    "live timer changed from 10 to 14 minutes preserving elapsed",
+    "header fits 1280px"
+  ],
+  "savedGameProgressPreserved": true,
+  "savedTeamNamesPreserved": true,
+  "defaultTrapFlags": 12,
+  "plannedCases": 12,
+  "board": "oval",
+  "serverSha256": "9051D8DF0DDB0AFFB0D59703BA206FDC7BE7A9D1EFB4E9C52C31C25446C6800F"
+}

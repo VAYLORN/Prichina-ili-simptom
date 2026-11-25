@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-25",
+  "testsPassed": 26,
+  "typescript": "passed",
+  "productionBuild": "passed",
+  "bundledServerIntegration": "passed",
+  "browserChecks": [
+    "sector hide/restore",
+    "case hide/restore",
+    "three-sector board",
+    "training 20:00",
+    "report 3:00",
+    "dynamic rules",
+    "A3 poster",
+    "A4 memo"
+  ],
+  "activeCases": [
+    "pr-04",
+    "pr-03",
+    "pr-02",
+    "ka-03",
+    "ka-02",
+    "ka-01",
+    "pe-03",
+    "pe-02",
+    "pe-01"
+  ],
+  "trainingMinutes": 20,
+  "discussionMinutes": 10,
+  "reportSeconds": 180,
+  "startsAtWelcome": true,
+  "teamsPreserved": true,
+  "previousGameArchive": "data/game-before-scenario-2026-11-25.json",
+  "serverSha256": "CF92132AE3A8C619A8E44717C59950B1035D0E4E4458BF049B672B02E85835FC"
+}

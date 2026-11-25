@@ -1,0 +1,26 @@
+Фото секторов — Unsplash, бесплатная лицензия Unsplash (https://unsplash.com/license).
+Файлы можно заменить своими фото с теми же именами.
+
+Рисунки, сделанные для игры в ChatGPT (art-*.webp; какой сектор берёт рисунок, а какой фото — src/ui/art.ts):
+art-supply.webp     — «Поставки»
+art-production.webp — «Производство»
+art-quality.webp    — «Качество»
+art-people.webp     — «Персонал»
+art-final.webp      — «Финал. Доклад директору»
+
+Объёмные иконки, тоже из ChatGPT (icons/*.webp, нарезаны из трёх листов; где какая — src/ui/art.ts):
+sector-*  — сектора: supply, production, quality, people
+card-*    — колоды: situation, fact, noise, opinion, hidden, trap
+role-*    — роли: lead, analyst, expert, secretary, skeptic, timekeeper
+
+Фон экранов кейса и поля (hero-*.jpg):
+hero-supply.jpg     — https://images.unsplash.com/photo-1645736315000-6f788915923b
+hero-production.jpg — https://images.unsplash.com/photo-1651525670099-f828fb5478a5
+hero-quality.jpg    — https://images.unsplash.com/photo-1758873263563-5ba4aa330799
+hero-people.jpg     — https://images.unsplash.com/photo-1589793463357-5fb813435467
+
+Печатный плакат (supply.jpg, quality.jpg, production.jpg, people.jpg):
+supply.jpg     — Bernd Dittrich, https://unsplash.com/photos/F2C_mSrb6iM
+quality.jpg    — Arno Senoner, https://unsplash.com/photos/H7rBLuD85Tg
+production.jpg — Arno Senoner, https://unsplash.com/photos/oLS6IxceVNs
+people.jpg     — Remy Gieling, https://unsplash.com/photos/KP6XQIEjjPA
